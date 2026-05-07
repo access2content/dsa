@@ -1,64 +1,71 @@
-#+title: 2 Pointers
+#+title: 2 Pointer Mechanics
 
 * Table of Contents :toc:
-- [[#patterns-and-questions][Patterns and Questions]]
-  - [[#1-collision-pattern-opposite-ends-33][1. Collision Pattern (Opposite Ends)]]
-  - [[#2-partitioning-pattern-readwrite-02][2. Partitioning Pattern (Read/Write)]]
-  - [[#3-search-space-reduction-k-sum-02][3. Search Space Reduction (k-Sum)]]
-  - [[#4-counting-pattern-boundary-logic-02][4. Counting Pattern (Boundary Logic)]]
-  - [[#5-two-array-traversal-merge-pattern-01][5. Two Array Traversal (Merge Pattern)]]
-  - [[#6-string-logic-skip--compare-02][6. String Logic (Skip & Compare)]]
-  - [[#7-fast--slow-pointers-tortoise-and-hare-02][7. Fast & Slow Pointers (Tortoise and Hare)]]
-  - [[#8-final-boss-prefixsuffix--boundary-invariants-01][8. Final Boss (Prefix/Suffix & Boundary Invariants)]]
+- [[#mechanics-and-questions][Mechanics and Questions]]
+  - [[#phase-1--the-three-mechanics-03][Phase 1 — The Three Mechanics]]
+  - [[#phase-2--the-aha-shifts-04][Phase 2 — The “Aha!” Shifts]]
+  - [[#phase-3--advanced-window-reasoning-04][Phase 3 — Advanced Window Reasoning]]
+  - [[#phase-4--boundary-of-the-technique-01][Phase 4 — Boundary of the Technique]]
 - [[#how-to-solve][How to solve]]
 
-* Patterns and Questions
-** 1. Collision Pattern (Opposite Ends) [3/3]
-*Key Logic:* Move inward from both ends based on a sorted property or a bottleneck to reduce the search space.
+* Mechanics and Questions
+** Phase 1 — The Three Mechanics [0/3]
+These problems establish the physical mechanics of sliding windows.
 
-- [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String (Warm up mechanics)]] [[[file:1.344-reverse-string.ts][TS]]]
-- [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted (Basic movement rules)]] [[[file:2.167-two-sum-ii-input-array-is-sorted.ts][TS]]]
-- [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water (Greedy movement based on bottlenecks)]] [[[file:3.11-container-with-most-water.ts][TS]]]
-** 2. Partitioning Pattern (Read/Write) [0/2]
-*Key Logic:* Maintain a "processed" vs. "unprocessed" boundary using one pointer to explore and another to track the last valid position.
+Core mechanics:
+- Fixed Window — Maintain an exact window size while updating incrementally.
+- Variable Window (Smallest) — Expand greedily, then shrink until invalid.
+- Variable Window (Longest) — Expand continuously and shrink only when constraints break.
 
-- [ ] 283. Move Zeroes (Simple boundary maintenance)
-- [ ] 75. Sort Colors (Managing multiple invariant zones/Three Pointers)
-** 3. Search Space Reduction (k-Sum) [0/2]
-*Key Logic:* Reducing complex multi-variable problems (like 3Sum or 4Sum) into simpler, nested Two Sum problems.
+- [ ] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] (Fixed window fundamentals)
+- [ ] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] (Shrink until invalid)
+- [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Expand until duplicate)
+** Phase 2 — The “Aha!” Shifts [0/4]
+These problems transform sliding window from a mechanical technique into a strategic reasoning tool. This phase is not about code structure, it is about cognitive breakthroughs.
 
-- [ ] 26. Remove Duplicates from Sorted Array (Adjacent duplicates in sorted arrays)
-- [ ] 15. 3Sum (Mastering duplicate handling and search reduction) 
-** 4. Counting Pattern (Boundary Logic) [0/2]
-*Key Logic:* Calculating ranges or number of pairs in O(1) instead of O(n) by leveraging the distance between pointers.
+Examples:
+- invalid windows can still be useful
+- counting can emerge from boundaries
+- exact-K can be transformed
 
-- [ ] 713. Subarray Product Less Than K (Sliding window counting logic)
-- [ ] 611. Valid Triangle Number (Counting ranges in sorted arrays)
-** 5. Two Array Traversal (Merge Pattern) [0/1]
-*Key Logic:* Coordinated movement across two separate data structures, typically processed in a single pass.
+Core mechanics:
+- K-Tolerance Windows — Allow temporary invalidity while preserving optimality.
+- Frequency Matching — Compare dynamic frequency states efficiently.
+- Window Counting — Count many valid subarrays mathematically using boundaries.
+- Counting via Transformation — Convert harder counting problems into reusable counting templates.
 
-- [ ] 88. Merge Sorted Array (Backward pointer trick to avoid overwriting) 
-** 6. String Logic (Skip & Compare) [0/2]
-*Key Logic:* Handling "noise" (non-alphanumeric characters, backspaces) while comparing elements from both ends.
+- [ ] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] (K-tolerance windows)
+- [ ] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] (Frequency matching)
+- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Sliding window counting)
+- [ ] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] (Exactly-K transformation)
+** Phase 3 — Advanced Window Reasoning [0/4]
+These problems teach advanced invariants, optimized data structures, and non-obvious problem transformations.
 
-- [ ] 125. Valid Palindrome (Basic skip and compare logic) 
-- [ ] 844. Backspace String Compare (Right-to-left processing logic) 
-** 7. Fast & Slow Pointers (Tortoise and Hare) [0/2]
-*Key Logic:* Moving one pointer faster than the other to find cycles or specific midpoints in structures without indices.
+Core mechanics:
+- Monotonic Window Optimization — Maintain monotonic candidates for O(1) max/min retrieval.
+- Problem Inversion — Transform edge-removal problems into retained-middle windows.
+- Multi-Constraint Shrinking — Maintain several validity constraints simultaneously.
+- Structural Window Transformations — Recognize hidden sliding-window formulations.
 
-- [ ] 141. Linked List Cycle (Detecting cycles in a single pass) 
-- [ ] 876. Middle of the Linked List (Finding structural midpoints) 
-** 8. Final Boss (Prefix/Suffix & Boundary Invariants) [0/1]
-*Key Logic:* Managing multiple boundaries or global state simultaneously to solve problems with complex spatial constraints.
+- [ ] [[https://leetcode.com/problems/sliding-window-maximum/description/][239. Sliding Window Maximum]] (Monotonic deque)
+- [ ] [[https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/][1658. Minimum Operations to Reduce X to Zero]] (Problem inversion)
+- [ ] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] (Multi-constraint shrinking)
+- [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Counting transformation)
+** Phase 4 — Boundary of the Technique [0/1]
+Learn where sliding window fundamentally breaks and why additional tools are required.
 
-- [ ] 42. Trapping Rain Water (Combining prefix/suffix max with two pointers)
+Core mechanics:
+- Non-Monotonic Window Failure — Learn why negative numbers break standard shrinking logic.
+
+- [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Why sliding window fails)
+
 * How to solve
 After every problem, write:
 - Invariant - “What is always guaranteed to be correct?”
 - Pointer movement rule - “What condition allows this pointer to move?”
 - Why movement is safe - “Why can I permanently ignore the element(s) I just passed?”
 
-Example for 167:
+Example:
 Invariant:
 - Array is sorted.
 

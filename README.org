@@ -1,8 +1,15 @@
 #+title: Learning Plan
 
 * Table of Contents :toc:
+- [[#how-to-use-this-guide][How to use this guide]]
+  - [[#1-the-mechanics-first-path][1. The Mechanics-First Path]]
+  - [[#2-the-pattern-first-path][2. The Pattern-First Path]]
+- [[#how-to-solve-problems][How to solve problems]]
+  - [[#what-to-focus-on][What to focus on]]
+  - [[#15-minute-rule][15 minute rule]]
+  - [[#debug-without-a-debugger][Debug Without a Debugger]]
 - [[#phase-1---array-traversal--lookup][Phase 1 - Array Traversal & Lookup]]
-  - [[#1-two-pointers][1. Two Pointers]]
+  - [[#1-two-pointers-mechanics-patterns][1. Two Pointers Mechanics] Patterns]]]
   - [[#2-sliding-window][2. Sliding Window]]
   - [[#3-prefix-sum][3. Prefix Sum]]
   - [[#4-hashmaps][4. Hashmaps]]
@@ -36,14 +43,44 @@
   - [[#bit-manipulation-04][Bit Manipulation]]
   - [[#algorithms-02][Algorithms]]
 - [[#phase-9---specialized--competitive-programming][Phase 9 - Specialized / Competitive Programming]]
-- [[#how-to-solve-problems][How to solve problems]]
-  - [[#what-to-focus-on][What to focus on]]
-  - [[#15-minute-rule][15 minute rule]]
-  - [[#debug-without-a-debugger][Debug Without a Debugger]]
 - [[#notes][Notes]]
 
+* How to use this guide
+This system is built on the philosophy that mastering algorithms requires two distinct layers of knowledge: Mechanics (the "How") and Patterns (the "When"). Depending on your timeline and learning style, you can navigate this guide in two ways:
+** 1. The Mechanics-First Path
+*Goal*: Deep Architectural Mastery & Problem-Solving Intuition.
+
+This path focuses on the gradual evolution of invariants. Instead of looking for a "Sliding Window" problem, you learn how to manage a boundary, how to maintain a running state, and how to shrink a search space without losing data.
+
+*Best for*: Students, long-term skill building, or those who want to be able to "derive" solutions to problems they’ve never seen before.
+
+*The Experience*: You will solve problems that share a physical logic. For example, you might move from reversing a string to trapping rain water, because both rely on the mechanic of Bidirectional Convergence.
+
+*Outcome*: You develop "muscle memory" for pointer movement that works even when the problem doesn't fit a standard template.
+** 2. The Pattern-First Path
+*Goal*: Interview Readiness & High-Efficiency Retrieval.
+
+This path organizes problems into implementation families. It focuses on recognizing "trigger words" and constraints in a problem statement and immediately mapping them to a proven coding template.
+
+*Best for*: Active interview preparation, time-constrained learners, or those who learn best by seeing variations of the same theme (e.g., "Fixed Window" vs. "Variable Window").
+
+*The Experience*: You will solve clusters of problems that look and feel similar. You will master the Sliding Window Template and apply it to ten different scenarios until the syntax is second nature.
+
+*Outcome*: You develop a high-speed "lookup table" in your brain, allowing you to categorize and solve standard medium-to-hard interview questions in minutes.
+* How to solve problems
+** What to focus on
+The biggest differentiator is not - “Did you study another algorithm?” It is:
+- depth of mastery
+- speed of recognition
+- debugging ability
+- communication during problem solving
+- consistency under pressure
+** 15 minute rule
+If you can’t identify the pattern and write a rough pseudocode within 15 minutes, stop and look at the hint. Speed of recognition is a muscle—don't waste 2 hours "stuck" on the wrong pattern.
+** Debug Without a Debugger
+Practice dry-running your code on paper or in comments with a small test case (e.g., arr = [1, 2, 3]). In many interviews, you won't have a compiler to tell you where the bug is.
 * Phase 1 - Array Traversal & Lookup
-** [[file:phase1/1.two-pointers/README.org][1. Two Pointers]]
+** 1. Two Pointers [[[file:phase1/1.two-pointers/README.org][Mechanics]]] [[[file:phase1/1.two-pointers/PATTERNS.org][Patterns]]]
 - Opposite ends
 - Read/Write
 - K-Sum
@@ -187,20 +224,6 @@
 - [ ] KMP
 - [ ] Rabin-Karp
 - [ ] Advanced graph algorithms
-* How to solve problems
-** What to focus on
-The biggest differentiator now will not be - “Did you study another algorithm?”
-
-It will be:
-- depth of mastery
-- speed of recognition
-- debugging ability
-- communication during problem solving
-- consistency under pressure
-** 15 minute rule
-If you can’t identify the pattern and write a rough pseudocode within 15 minutes, stop and look at the hint. Speed of recognition is a muscle—don't waste 2 hours "stuck" on the wrong pattern.
-** Debug Without a Debugger
-Practice dry-running your code on paper or in comments with a small test case (e.g., arr = [1, 2, 3]). In many interviews, you won't have a compiler to tell you where the bug is.
 * Notes
  Node.js doesn't have a built-in Priority Queue/Heap in its standard library. You'll either need to:
 - Implement a basic Min/Max Heap class from scratch
