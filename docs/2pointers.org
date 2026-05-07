@@ -1,5 +1,17 @@
 #+title: 2 Pointers
 
+* Table of Contents :toc:
+- [[#patterns-and-questions][Patterns and Questions]]
+  - [[#1-collision-pattern-opposite-ends-03][1. Collision Pattern (Opposite Ends)]]
+  - [[#2-partitioning-pattern-readwrite-02][2. Partitioning Pattern (Read/Write)]]
+  - [[#3-search-space-reduction-k-sum-02][3. Search Space Reduction (k-Sum)]]
+  - [[#4-counting-pattern-boundary-logic-02][4. Counting Pattern (Boundary Logic)]]
+  - [[#5-two-array-traversal-merge-pattern-01][5. Two Array Traversal (Merge Pattern)]]
+  - [[#6-string-logic-skip--compare-02][6. String Logic (Skip & Compare)]]
+  - [[#7-fast--slow-pointers-tortoise-and-hare-02][7. Fast & Slow Pointers (Tortoise and Hare)]]
+  - [[#8-final-boss-prefixsuffix--boundary-invariants-01][8. Final Boss (Prefix/Suffix & Boundary Invariants)]]
+- [[#notes][Notes]]
+
 * Patterns and Questions
 ** 1. Collision Pattern (Opposite Ends) [0/3]
 *Key Logic:* Move inward from both ends based on a sorted property or a bottleneck to reduce the search space.
