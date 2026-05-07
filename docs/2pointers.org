@@ -18,7 +18,7 @@
 - [ ] 26. Remove Duplicates from Sorted Array (Adjacent duplicates in sorted arrays)
 - [ ] 15. 3Sum (Mastering duplicate handling and search reduction) 
 ** 4. Counting Pattern (Boundary Logic) [0/2]
-*Key Logic:* Calculating ranges or number of pairs in $O(1)$ instead of $O(n)$ by leveraging the distance between pointers.
+*Key Logic:* Calculating ranges or number of pairs in O(1) instead of O(n) by leveraging the distance between pointers.
 
 - [ ] 713. Subarray Product Less Than K (Sliding window counting logic)
 - [ ] 611. Valid Triangle Number (Counting ranges in sorted arrays)

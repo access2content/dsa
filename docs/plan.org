@@ -1,60 +1,66 @@
 #+title: Learning Plan
 
-* Phase 1 — Core Array & Lookup Patterns
-** Hashmaps [0/4]
-- [ ] Frequency counting
-- [ ] Lookup optimization
-- [ ] Deduplication
-- [ ] Complement matching
-** Linked List
+* Phase 1 - Array Traversal & Lookup
+** 1. Two Pointers
+- Opposite ends
+- Read/Write
+- K-Sum
+- Boundary Logic
+- Merging arrays
+- Skip and Compare
+- Fast/slow pointers
+- Prefix/Suffix
+** 2. Sliding Window
+- Fixed window
+- Variable window
+- Frequency-window tracking
+** 3. Prefix Sum
+- Range queries
+- Running totals
+- Hashmap + prefix sum combinations
+** 4. Hashmaps
+- Frequency counting
+- Lookup optimization
+- Deduplication
+- Complement matching
+* Phase 2 - Core Data Structures
+** 1. Stack
+- Balanced parentheses
+- Expression evaluation
+- Stack simulation
+- Monotonic stack foundation
+** 2. Queue
+- FIFO processing
+- BFS foundation
+- Circular queue intuition
+- Deque intuition
+** 3. Linked List
 - Traversal
 - Reverse linked list
 - Fast/slow pointer
 - Merge lists
 - Cycle detection
-** Stack
-- Balanced parentheses
-- Expression evaluation
-- Stack simulation
-- Monotonic stack foundation
-** Queue
-- FIFO processing
-- BFS foundation
-- Circular queue intuition
-- Deque intuition
-** Two Pointers [0/4]
-- [ ] Opposite-direction pointers
-- [ ] Fast/slow pointers
-- [ ] Partitioning
-- [ ] Sorted array techniques
-** Sliding Window [0/3]
-- [ ] Fixed window
-- [ ] Variable window
-- [ ] Frequency-window tracking
-** Prefix Sum [0/3]
-- [ ] Range queries
-- [ ] Running totals
-- [ ] Hashmap + prefix sum combinations
-** Binary Search [0/4]
-- [ ] Binary search on arrays
-- [ ] First/last occurrence
-- [ ] Search space reduction
-- [ ] Binary search on answer
-** Greedy [0/4]
-- [ ] interval scheduling
-- [ ] merging intervals
-- [ ] optimal local decisions
-- [ ] sorting-based greedy
-** Interval Problems [0/3]
-- [ ] merge intervals
-- [ ] meeting rooms
-- [ ] sweep line intuition
-** Monotonic Stack [0/4]
-- [ ] next greater element
-- [ ] histogram
-- [ ] daily temperatures
-- [ ] trapping rain water
-* Phase 2 — Priority & Recursive Thinking
+* Phase 3 - Search and Optimization
+** 1. Binary Search
+- Binary search on arrays
+- First/last occurrence
+- Search space reduction
+- Binary search on answer
+** 2. Greedy
+- Interval scheduling
+- Merging intervals
+- Optimal local decisions
+- Sorting-based greedy
+** 3. Interval Problems
+- Merge intervals
+- Meeting rooms
+- Sweep line intuition
+** 4. Monotonic Stack
+- Next greater element
+- Histogram
+- Daily temperatures
+- Trapping rain water
+* Phase 4 - Priority & Recursive Thinking
 ** Heap [0/4]
 - [ ] Min heap
 - [ ] Max heap
@@ -73,7 +79,7 @@
 - [ ] Decision trees
 - [ ] Constraint pruning
 - [ ] State undoing
-* Phase 3 — Trees
+* Phase 5 - Trees
 ** Binary Tree Fundamentals [0/4]
 - [ ] Tree representation
 - [ ] Traversals
@@ -92,7 +98,7 @@
 - [ ] autocomplete
 - [ ] prefix search
 - [ ] word search
-* Phase 4 — Graphs
+* Phase 6 - Graphs
 ** Graph DFS [0/3]
 - [ ] Visited tracking
 - [ ] Connected components
@@ -112,7 +118,7 @@
 - [ ] Connected components
 - [ ] Dynamic connectivity
 - [ ] Cycle detection
-* Phase 5 — Advanced Problem Solving
+* Phase 7 - Advanced Problem Solving
 - [ ] Memoization
 - [ ] State definition
 - [ ] Transition relation
@@ -123,16 +129,16 @@
 - [ ] Longest Increasing Subsequence (LIS)
 - [ ] Grid DP
 - [ ] Interval DP
-* Phase 6 - Strong interview topics
+* Phase 8 - Advanced Algorithms
 ** Bit Manipulation [0/4]
 - [ ] XOR tricks
 - [ ] bit masking
 - [ ] subsets
 - [ ] state compression
-** Advanced Algorithms [0/2]
+** Algorithms [0/2]
 - [ ] Dijkstra
 - [ ] Minimum spanning tree
-* Phase 7 - Specialized / Competitive Programming
+* Phase 9 - Specialized / Competitive Programming
 - [ ] Segment Tree
 - [ ] Fenwick Tree
 - [ ] Floyd Warshall
