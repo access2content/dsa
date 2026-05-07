@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#patterns-and-questions][Patterns and Questions]]
-  - [[#1-collision-pattern-opposite-ends-33][1. Collision Pattern (Opposite Ends)]]
+  - [[#1-convering-pointers-opposite-ends-33][1. Convering Pointers (Opposite Ends)]]
   - [[#2-partitioning-pattern-readwrite-boundaries-03][2. Partitioning Pattern (Read/Write Boundaries)]]
   - [[#3-search-space-reduction-k-sum-01][3. Search Space Reduction (k-Sum)]]
   - [[#4-counting--boundary-logic-02][4. Counting & Boundary Logic]]
@@ -12,7 +12,7 @@
 - [[#how-to-solve][How to solve]]
 
 * Patterns and Questions
-** 1. Collision Pattern (Opposite Ends) [3/3]
+** 1. Convering Pointers (Opposite Ends) [3/3]
 *Key Logic:* Move inward from both ends based on sorted structure or bottleneck elimination.
 
 - [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]]

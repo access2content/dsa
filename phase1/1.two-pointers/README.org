@@ -2,63 +2,70 @@
 
 * Table of Contents :toc:
 - [[#mechanics-and-questions][Mechanics and Questions]]
-  - [[#phase-1--the-three-mechanics-03][Phase 1 — The Three Mechanics]]
-  - [[#phase-2--the-aha-shifts-04][Phase 2 — The “Aha!” Shifts]]
-  - [[#phase-3--advanced-window-reasoning-04][Phase 3 — Advanced Window Reasoning]]
-  - [[#phase-4--boundary-of-the-technique-01][Phase 4 — Boundary of the Technique]]
+  - [[#phase-1--coordinated-movement-03][Phase 1 — Coordinated Movement]]
+  - [[#phase-2--boundary-creation-03][Phase 2 — Boundary Creation]]
+  - [[#phase-3--search-space-elimination-04][Phase 3 — Search Space Elimination]]
+  - [[#phase-4--deferred--dynamic-reasoning-03][Phase 4 — Deferred & Dynamic Reasoning]]
+  - [[#phase-5--emergent-pointer-behavior-02][Phase 5 — Emergent Pointer Behavior]]
 - [[#how-to-solve][How to solve]]
 
 * Mechanics and Questions
-** Phase 1 — The Three Mechanics [0/3]
-These problems establish the physical mechanics of sliding windows.
+** Phase 1 — Coordinated Movement [0/3]
+Learn the fundamental idea that multiple pointers can coordinate to reduce unnecessary work.
 
 Core mechanics:
-- Fixed Window — Maintain an exact window size while updating incrementally.
-- Variable Window (Smallest) — Expand greedily, then shrink until invalid.
-- Variable Window (Longest) — Expand continuously and shrink only when constraints break.
+- Opposite-end traversal
+- Pointer coordination
+- Movement based on local conditions
 
-- [ ] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] (Fixed window fundamentals)
-- [ ] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] (Shrink until invalid)
-- [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Expand until duplicate)
-** Phase 2 — The “Aha!” Shifts [0/4]
-These problems transform sliding window from a mechanical technique into a strategic reasoning tool. This phase is not about code structure, it is about cognitive breakthroughs.
-
-Examples:
-- invalid windows can still be useful
-- counting can emerge from boundaries
-- exact-K can be transformed
+- [ ] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] (Basic coordinated traversal)
+- [ ] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] (Coordinated traversal across structures)
+- [ ] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] (Skip and compare traversal)
+** Phase 2 — Boundary Creation [0/3]
+Learn that pointers can define and maintain invariant regions inside arrays.
 
 Core mechanics:
-- K-Tolerance Windows — Allow temporary invalidity while preserving optimality.
-- Frequency Matching — Compare dynamic frequency states efficiently.
-- Window Counting — Count many valid subarrays mathematically using boundaries.
-- Counting via Transformation — Convert harder counting problems into reusable counting templates.
+- Processed vs unprocessed regions
+- Expanding finalized boundaries
+- Maintaining multiple invariant zones
 
-- [ ] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] (K-tolerance windows)
-- [ ] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] (Frequency matching)
-- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Sliding window counting)
-- [ ] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] (Exactly-K transformation)
-** Phase 3 — Advanced Window Reasoning [0/4]
-These problems teach advanced invariants, optimized data structures, and non-obvious problem transformations.
+- [ ] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] (Single boundary maintenance)
+- [ ] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] (Boundary compaction)
+- [ ] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] (Multi-boundary invariants)
+** Phase 3 — Search Space Elimination [0/4]
+Learn that pointer movement can permanently eliminate impossible states.
 
 Core mechanics:
-- Monotonic Window Optimization — Maintain monotonic candidates for O(1) max/min retrieval.
-- Problem Inversion — Transform edge-removal problems into retained-middle windows.
-- Multi-Constraint Shrinking — Maintain several validity constraints simultaneously.
-- Structural Window Transformations — Recognize hidden sliding-window formulations.
+- Sorted search reduction
+- Greedy elimination
+- Nested pointer reduction
+- Counting via boundary distance
 
-- [ ] [[https://leetcode.com/problems/sliding-window-maximum/description/][239. Sliding Window Maximum]] (Monotonic deque)
-- [ ] [[https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/][1658. Minimum Operations to Reduce X to Zero]] (Problem inversion)
-- [ ] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] (Multi-constraint shrinking)
-- [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Counting transformation)
-** Phase 4 — Boundary of the Technique [0/1]
-Learn where sliding window fundamentally breaks and why additional tools are required.
+- [ ] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] (Sorted elimination)
+- [ ] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] (Greedy boundary elimination)
+- [ ] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] (Nested search reduction)
+- [ ] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] (Boundary counting)
+** Phase 4 — Deferred & Dynamic Reasoning [0/3]
+Learn that pointers can simulate delayed effects and dynamically evolving constraints.
 
 Core mechanics:
-- Non-Monotonic Window Failure — Learn why negative numbers break standard shrinking logic.
+- Deferred processing
+- Dynamic shrinking/expansion
+- Mathematical counting from boundaries
 
-- [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Why sliding window fails)
+- [ ] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]] (Deferred traversal effects)
+- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Dynamic window constraints)
+- [ ] [[https://leetcode.com/problems/trapping-rain-water/description/][42. Trapping Rain Water]] (Global boundary interaction)
+** Phase 5 — Emergent Pointer Behavior [0/2]
+Learn that relationships between pointers can themselves reveal hidden structural properties.
 
+Core mechanics:
+- Relative traversal speed
+- Emergent pointer interaction
+- Structure discovery without extra memory
+
+- [ ] [[https://leetcode.com/problems/middle-of-the-linked-list/description/][876. Middle of the Linked List]] (Structural midpoint discovery)
+- [ ] [[https://leetcode.com/problems/linked-list-cycle/description/][141. Linked List Cycle]] (Cycle emergence through relative speed)
 * How to solve
 After every problem, write:
 - Invariant - “What is always guaranteed to be correct?”
