@@ -9,7 +9,7 @@
   - [[#15-minute-rule][15 minute rule]]
   - [[#debug-without-a-debugger][Debug Without a Debugger]]
 - [[#phase-1---array-traversal--lookup][Phase 1 - Array Traversal & Lookup]]
-  - [[#1-two-pointers-mechanics-patterns][1. Two Pointers Mechanics] Patterns]]]
+  - [[#1-two-pointers][1. Two Pointers]]
   - [[#2-sliding-window][2. Sliding Window]]
   - [[#3-prefix-sum][3. Prefix Sum]]
   - [[#4-hashmaps][4. Hashmaps]]
@@ -80,7 +80,8 @@ If you can’t identify the pattern and write a rough pseudocode within 15 minut
 ** Debug Without a Debugger
 Practice dry-running your code on paper or in comments with a small test case (e.g., arr = [1, 2, 3]). In many interviews, you won't have a compiler to tell you where the bug is.
 * Phase 1 - Array Traversal & Lookup
-** 1. Two Pointers [[[file:phase1/1.two-pointers/README.org][Mechanics]]] [[[file:phase1/1.two-pointers/PATTERNS.org][Patterns]]]
+** 1. Two Pointers
+[[[file:phase1/1.two-pointers/README.org][Mechanics]]] [[[file:phase1/1.two-pointers/PATTERNS.org][Patterns]]]
 - Opposite ends
 - Read/Write
 - K-Sum
