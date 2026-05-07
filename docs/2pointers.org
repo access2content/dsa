@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#patterns-and-questions][Patterns and Questions]]
-  - [[#1-collision-pattern-opposite-ends-03][1. Collision Pattern (Opposite Ends)]]
+  - [[#1-collision-pattern-opposite-ends-33][1. Collision Pattern (Opposite Ends)]]
   - [[#2-partitioning-pattern-readwrite-02][2. Partitioning Pattern (Read/Write)]]
   - [[#3-search-space-reduction-k-sum-02][3. Search Space Reduction (k-Sum)]]
   - [[#4-counting-pattern-boundary-logic-02][4. Counting Pattern (Boundary Logic)]]
@@ -13,12 +13,12 @@
 - [[#notes][Notes]]
 
 * Patterns and Questions
-** 1. Collision Pattern (Opposite Ends) [0/3]
+** 1. Collision Pattern (Opposite Ends) [3/3]
 *Key Logic:* Move inward from both ends based on a sorted property or a bottleneck to reduce the search space.
 
-- [ ] 344. Reverse String (Warm up mechanics)
-- [ ] 167. Two Sum II - Input Array Is Sorted (Basic movement rules)
-- [ ] 11. Container With Most Water (Greedy movement based on bottlenecks)
+- [X] 344. Reverse String (Warm up mechanics)
+- [X] 167. Two Sum II - Input Array Is Sorted (Basic movement rules)
+- [X] 11. Container With Most Water (Greedy movement based on bottlenecks)
 ** 2. Partitioning Pattern (Read/Write) [0/2]
 *Key Logic:* Maintain a "processed" vs. "unprocessed" boundary using one pointer to explore and another to track the last valid position.
 
