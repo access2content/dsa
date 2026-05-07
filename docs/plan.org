@@ -1,0 +1,159 @@
+#+title: Learning Plan
+
+* Phase 1 — Core Array & Lookup Patterns
+** Hashmaps [0/4]
+- [ ] Frequency counting
+- [ ] Lookup optimization
+- [ ] Deduplication
+- [ ] Complement matching
+** Linked List
+- Traversal
+- Reverse linked list
+- Fast/slow pointer
+- Merge lists
+- Cycle detection
+** Stack
+- Balanced parentheses
+- Expression evaluation
+- Stack simulation
+- Monotonic stack foundation
+** Queue
+- FIFO processing
+- BFS foundation
+- Circular queue intuition
+- Deque intuition
+** Two Pointers [0/4]
+- [ ] Opposite-direction pointers
+- [ ] Fast/slow pointers
+- [ ] Partitioning
+- [ ] Sorted array techniques
+** Sliding Window [0/3]
+- [ ] Fixed window
+- [ ] Variable window
+- [ ] Frequency-window tracking
+** Prefix Sum [0/3]
+- [ ] Range queries
+- [ ] Running totals
+- [ ] Hashmap + prefix sum combinations
+** Binary Search [0/4]
+- [ ] Binary search on arrays
+- [ ] First/last occurrence
+- [ ] Search space reduction
+- [ ] Binary search on answer
+** Greedy [0/4]
+- [ ] interval scheduling
+- [ ] merging intervals
+- [ ] optimal local decisions
+- [ ] sorting-based greedy
+** Interval Problems [0/3]
+- [ ] merge intervals
+- [ ] meeting rooms
+- [ ] sweep line intuition
+** Monotonic Stack [0/4]
+- [ ] next greater element
+- [ ] histogram
+- [ ] daily temperatures
+- [ ] trapping rain water
+* Phase 2 — Priority & Recursive Thinking
+** Heap [0/4]
+- [ ] Min heap
+- [ ] Max heap
+- [ ] Priority scheduling
+- [ ] Two heap patterns
+** Top K [0/3]
+- [ ] Heap-based selection
+- [ ] Streaming problems
+- [ ] Frequency ranking
+** Recursion [0/4]
+- [ ] Base cases
+- [ ] Recursive state
+- [ ] Divide and conquer
+- [ ] Tree-style thinking
+** Backtracking [0/3]
+- [ ] Decision trees
+- [ ] Constraint pruning
+- [ ] State undoing
+* Phase 3 — Trees
+** Binary Tree Fundamentals [0/4]
+- [ ] Tree representation
+- [ ] Traversals
+- [ ] Height/depth
+- [ ] Balanced vs unbalanced
+** Tree DFS [0/4]
+- [ ] Preorder
+- [ ] Inorder
+- [ ] Postorder
+- [ ] Recursive tree state propagation
+** Tree BFS [0/3]
+- [ ] Level-order traversal
+- [ ] Queue-based traversal
+- [ ] Level processing
+** Trie [0/3]
+- [ ] autocomplete
+- [ ] prefix search
+- [ ] word search
+* Phase 4 — Graphs
+** Graph DFS [0/3]
+- [ ] Visited tracking
+- [ ] Connected components
+- [ ] Cycle detection intuition
+** Graph BFS [0/2]
+- [ ] Shortest path in unweighted graphs
+- [ ] Multi-source BFS
+** Matrix Problems [0/3]
+- [ ] Grid traversal
+- [ ] Direction vectors
+- [ ] BFS/DFS on grids
+** Topological Sort [0/3]
+- [ ] DAG thinking
+- [ ] Dependency ordering
+- [ ] Indegree processing
+** Union Find [0/3]
+- [ ] Connected components
+- [ ] Dynamic connectivity
+- [ ] Cycle detection
+* Phase 5 — Advanced Problem Solving
+- [ ] Memoization
+- [ ] State definition
+- [ ] Transition relation
+- [ ] 1D DP
+- [ ] 2D DP
+- [ ] Knapsack patterns
+- [ ] Subsequences
+- [ ] Longest Increasing Subsequence (LIS)
+- [ ] Grid DP
+- [ ] Interval DP
+* Phase 6 - Strong interview topics
+** Bit Manipulation [0/4]
+- [ ] XOR tricks
+- [ ] bit masking
+- [ ] subsets
+- [ ] state compression
+** Advanced Algorithms [0/2]
+- [ ] Dijkstra
+- [ ] Minimum spanning tree
+* Phase 7 - Specialized / Competitive Programming
+- [ ] Segment Tree
+- [ ] Fenwick Tree
+- [ ] Floyd Warshall
+- [ ] KMP
+- [ ] Rabin-Karp
+- [ ] Advanced graph algorithms
+* How to solve problems
+** What to focus on
+The biggest differentiator now will not be - “Did you study another algorithm?”
+
+It will be:
+- depth of mastery
+- speed of recognition
+- debugging ability
+- communication during problem solving
+- consistency under pressure
+** 15 minute rule
+If you can’t identify the pattern and write a rough pseudocode within 15 minutes, stop and look at the hint. Speed of recognition is a muscle—don't waste 2 hours "stuck" on the wrong pattern.
+** Debug Without a Debugger
+Practice dry-running your code on paper or in comments with a small test case (e.g., arr = [1, 2, 3]). In many interviews, you won't have a compiler to tell you where the bug is.
+* Notes
+ Node.js doesn't have a built-in Priority Queue/Heap in its standard library. You'll either need to:
+- Implement a basic Min/Max Heap class from scratch
+- Use a library if you're just focused on the algorithm logic.
