@@ -43,7 +43,7 @@
 - [[#notes][Notes]]
 
 * Phase 1 - Array Traversal & Lookup
-** 1. Two Pointers
+** [[file:docs/2pointers.org][1. Two Pointers]]
 - Opposite ends
 - Read/Write
 - K-Sum
