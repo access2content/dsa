@@ -1,0 +1,75 @@
+#+title: 2 Pointers
+
+* All patterns with logic
+** 1. Collision Pattern (Opposite Ends)
+Move inward from both ends based on a sorted property or a bottleneck to reduce the search space.
+** 2. Partitioning Pattern (Read/Write)
+Maintain a "processed" vs. "unprocessed" boundary using one pointer to explore and another to track the last valid position.
+** 3. Search Space Reduction (k-Sum)
+Reducing complex multi-variable problems (like 3Sum or 4Sum) into simpler, nested Two Sum problems.
+** 4. Counting Pattern (Boundary Logic)
+Calculating ranges or number of pairs in $O(1)$ instead of $O(n)$ by leveraging the distance between pointers.
+** 5. Two Array Traversal (Merge Pattern)
+Coordinated movement across two separate data structures, typically processed in a single pass.
+** 6. String Logic (Skip & Compare)
+Handling "noise" (non-alphanumeric characters, backspaces) while comparing elements from both ends.
+** 7. Fast & Slow Pointers (Tortoise and Hare)
+Moving one pointer faster than the other to find cycles or specific midpoints in structures without indices.
+** 8. Final Boss (Prefix/Suffix & Boundary Invariants)
+Managing multiple boundaries or global state simultaneously to solve problems with complex spatial constraints.
+* Question List
+1. Collision Pattern
+   
+- [ ] 344. Reverse String (Warm up mechanics)
+- [ ] 167. Two Sum II - Input Array Is Sorted (Basic movement rules)
+- [ ] 11. Container With Most Water (Greedy movement based on bottlenecks)
+  
+2. Partitioning Pattern
+   
+- [ ] 283. Move Zeroes (Simple boundary maintenance)
+- [ ] 75. Sort Colors (Managing multiple invariant zones/Three Pointers)
+
+3. Search Space Reduction  
+   
+- [ ] 26. Remove Duplicates from Sorted Array (Adjacent duplicates in sorted arrays)
+- [ ] 15. 3Sum (Mastering duplicate handling and search reduction) 
+
+4. Counting Pattern (Boundary Logic)
+   
+- [ ] 713. Subarray Product Less Than K (Sliding window counting logic)
+- [ ] 611. Valid Triangle Number (Counting ranges in sorted arrays)
+
+5. Two Array Traversal (Merge Pattern)
+   
+- [ ] 88. Merge Sorted Array (Backward pointer trick to avoid overwriting) 
+
+6. String Logic (Skip & Compare)
+   
+- [ ] 125. Valid Palindrome (Basic skip and compare logic) 
+- [ ] 844. Backspace String Compare (Right-to-left processing logic) 
+  
+7. Fast & Slow Pointers (Tortoise and Hare)
+   
+- [ ] 141. Linked List Cycle (Detecting cycles in a single pass) 
+- [ ] 876. Middle of the Linked List (Finding structural midpoints) 
+  
+8. Prefix/Suffix & Boundary Invariants
+   
+- [ ] 42. Trapping Rain Water (Combining prefix/suffix max with two pointers)
+* How to practice
+After every problem, write:
+- Invariant
+- Pointer movement rule
+- Why movement is safe
+
+Example for 167. Two Sum II:
+Invariant:
+- Array is sorted.
+
+Movement rule:
+- If sum too small → move left.
+- If sum too large → move right.
+
+Why safe:
+- Sorted order guarantees discarded pairs
+- cannot become valid later.
