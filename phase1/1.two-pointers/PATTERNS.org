@@ -15,9 +15,9 @@
 ** 1. Convering Pointers (Opposite Ends) [3/3]
 *Key Logic:* Move inward from both ends based on sorted structure or bottleneck elimination.
 
-- [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]]
-- [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]]
-- [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]]
+- [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]]
+- [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] [[[file:167-two-sum-ii-input-array-is-sorted.ts][TS]]]
+- [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]]
 ** 2. Partitioning Pattern (Read/Write Boundaries) [0/3]
 *Key Logic:* Maintain processed vs unprocessed regions while rewriting data in-place.
 
@@ -53,15 +53,3 @@ After every problem, write:
 - Invariant - “What is always guaranteed to be correct?”
 - Pointer movement rule - “What condition allows this pointer to move?”
 - Why movement is safe - “Why can I permanently ignore the element(s) I just passed?”
-
-Example for 167:
-Invariant:
-- Array is sorted.
-
-Movement rule:
-- If sum too small → move left.
-- If sum too large → move right.
-
-Why safe:
-- Sorted order guarantees discarded pairs
-- cannot become valid later.

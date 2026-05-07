@@ -2,15 +2,15 @@
 
 * Table of Contents :toc:
 - [[#mechanics-and-questions][Mechanics and Questions]]
-  - [[#phase-1--coordinated-movement-03][Phase 1 — Coordinated Movement]]
+  - [[#phase-1--coordinated-movement-13][Phase 1 — Coordinated Movement]]
   - [[#phase-2--boundary-creation-03][Phase 2 — Boundary Creation]]
-  - [[#phase-3--search-space-elimination-04][Phase 3 — Search Space Elimination]]
+  - [[#phase-3--search-space-elimination-24][Phase 3 — Search Space Elimination]]
   - [[#phase-4--deferred--dynamic-reasoning-03][Phase 4 — Deferred & Dynamic Reasoning]]
   - [[#phase-5--emergent-pointer-behavior-02][Phase 5 — Emergent Pointer Behavior]]
 - [[#how-to-solve][How to solve]]
 
 * Mechanics and Questions
-** Phase 1 — Coordinated Movement [0/3]
+** Phase 1 — Coordinated Movement [1/3]
 Learn the fundamental idea that multiple pointers can coordinate to reduce unnecessary work.
 
 Core mechanics:
@@ -18,7 +18,7 @@ Core mechanics:
 - Pointer coordination
 - Movement based on local conditions
 
-- [ ] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] (Basic coordinated traversal)
+- [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]] (Basic coordinated traversal)
 - [ ] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] (Coordinated traversal across structures)
 - [ ] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] (Skip and compare traversal)
 ** Phase 2 — Boundary Creation [0/3]
@@ -32,7 +32,7 @@ Core mechanics:
 - [ ] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] (Single boundary maintenance)
 - [ ] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] (Boundary compaction)
 - [ ] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] (Multi-boundary invariants)
-** Phase 3 — Search Space Elimination [0/4]
+** Phase 3 — Search Space Elimination [2/4]
 Learn that pointer movement can permanently eliminate impossible states.
 
 Core mechanics:
@@ -41,8 +41,8 @@ Core mechanics:
 - Nested pointer reduction
 - Counting via boundary distance
 
-- [ ] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] (Sorted elimination)
-- [ ] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] (Greedy boundary elimination)
+- [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] [[[file:167-two-sum-ii-input-array-is-sorted.ts][TS]]] (Sorted elimination)
+- [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]](Greedy boundary elimination)
 - [ ] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] (Nested search reduction)
 - [ ] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] (Boundary counting)
 ** Phase 4 — Deferred & Dynamic Reasoning [0/3]
@@ -71,15 +71,3 @@ After every problem, write:
 - Invariant - “What is always guaranteed to be correct?”
 - Pointer movement rule - “What condition allows this pointer to move?”
 - Why movement is safe - “Why can I permanently ignore the element(s) I just passed?”
-
-Example:
-Invariant:
-- Array is sorted.
-
-Movement rule:
-- If sum too small → move left.
-- If sum too large → move right.
-
-Why safe:
-- Sorted order guarantees discarded pairs
-- cannot become valid later.
