@@ -36,7 +36,18 @@ function reverseString(input: string[]): void {
   }
 }
 
-const input = "vivek".split("");
+/*
+Invariant:
+- All characters before `left` are already in their final reversed position
+- All characters after `right` are already in their final reversed position
+- The range `[left, right]` is the only unsolved portion
 
-reverse(input);
-console.log(input.join(""));
+Movement rules:
+- `left` moves right after placing the correct value at index `left`
+- `right` moves left after placing the correct value at index `right`
+
+Why safe:
+- Before moving pointers, we swap the values at `left` and `right`
+- After swapping, both positions contain their final reversed values
+- Since those positions are finalized, moving inward cannot skip required work
+*/

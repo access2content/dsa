@@ -55,3 +55,18 @@ function twoSum(numbers: number[], target: number): number[] {
 
   return numbers;
 }
+
+/*
+Invariant:
+- If a valid pair exists, it must be within the range [left, right]
+- All indices outside [left, right] have been safely eliminated
+
+Movement rules:
+- Move `left` to the right if sum is lesser than target because value will increase
+- Move `right` to the left if sum is greater than target because value will decrease
+
+Why safe:
+- Array is sorted
+- If sum < target, every pair using current `left` is too small
+- If sum > target, every pair using current `right` is too large
+*/

@@ -10,7 +10,7 @@
   - [[#6-string-logic-skip--compare-02][6. String Logic (Skip & Compare)]]
   - [[#7-fast--slow-pointers-tortoise-and-hare-02][7. Fast & Slow Pointers (Tortoise and Hare)]]
   - [[#8-final-boss-prefixsuffix--boundary-invariants-01][8. Final Boss (Prefix/Suffix & Boundary Invariants)]]
-- [[#notes][Notes]]
+- [[#how-to-solve][How to solve]]
 
 * Patterns and Questions
 ** 1. Collision Pattern (Opposite Ends) [3/3]
@@ -52,11 +52,11 @@
 *Key Logic:* Managing multiple boundaries or global state simultaneously to solve problems with complex spatial constraints.
 
 - [ ] 42. Trapping Rain Water (Combining prefix/suffix max with two pointers)
-* Notes
+* How to solve
 After every problem, write:
-- Invariant
-- Pointer movement rule
-- Why movement is safe
+- Invariant - “What is always guaranteed to be correct?”
+- Pointer movement rule - “What condition allows this pointer to move?”
+- Why movement is safe - “Why can I permanently ignore the element(s) I just passed?”
 
 Example for 167:
 Invariant:

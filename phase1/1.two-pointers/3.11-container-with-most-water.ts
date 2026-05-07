@@ -52,3 +52,18 @@ function maxArea(height: number[]): number {
 
   return bestArea;
 }
+
+/*
+Invariant:
+- `maxArea` stores the largest area found so far
+- If a larger valid area exists, it must still be within [left, right]
+
+Movement rule:
+- Move the side that is the smallest
+
+Why safe:
+- Area is limited by the shorter height
+- Keeping the shorter height while reducing width cannot produce a larger area
+- Therefore, the smaller height cannot be part of a better solution with the current width
+- Moving the smaller side is the only chance to find a taller boundary and increase area
+*/
