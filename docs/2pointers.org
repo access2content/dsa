@@ -16,9 +16,9 @@
 ** 1. Collision Pattern (Opposite Ends) [3/3]
 *Key Logic:* Move inward from both ends based on a sorted property or a bottleneck to reduce the search space.
 
-- [X] 344. Reverse String (Warm up mechanics)
-- [X] 167. Two Sum II - Input Array Is Sorted (Basic movement rules)
-- [X] 11. Container With Most Water (Greedy movement based on bottlenecks)
+- [X] [[file:~/Documents/personal/dsa/phase1/1.two-pointers/1.344-reverse-string.ts][344. Reverse String (Warm up mechanics)]]
+- [X] [[file:~/Documents/personal/dsa/phase1/1.two-pointers/2.167-two-sum-ii-input-array-is-sorted.ts][167. Two Sum II - Input Array Is Sorted (Basic movement rules)]]
+- [X] [[file:~/Documents/personal/dsa/phase1/1.two-pointers/3.11-container-with-most-water.ts][11. Container With Most Water (Greedy movement based on bottlenecks)]]
 ** 2. Partitioning Pattern (Read/Write) [0/2]
 *Key Logic:* Maintain a "processed" vs. "unprocessed" boundary using one pointer to explore and another to track the last valid position.
 
