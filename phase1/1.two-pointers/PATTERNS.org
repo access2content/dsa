@@ -5,7 +5,7 @@
   - [[#1-convering-pointers-opposite-ends-33][1. Convering Pointers (Opposite Ends)]]
   - [[#2-partitioning-pattern-readwrite-boundaries-33][2. Partitioning Pattern (Read/Write Boundaries)]]
   - [[#3-search-space-reduction-k-sum-11][3. Search Space Reduction (k-Sum)]]
-  - [[#4-counting--boundary-logic-02][4. Counting & Boundary Logic]]
+  - [[#4-counting--boundary-logic-12][4. Counting & Boundary Logic]]
   - [[#5-coordinated-traversal-pattern-23][5. Coordinated Traversal Pattern]]
   - [[#6-fast--slow-pointer-pattern-tortoise-and-hare-02][6. Fast & Slow Pointer Pattern (Tortoise and Hare)]]
   - [[#7-final-boss-global-boundary-invariants-01][7. Final Boss (Global Boundary Invariants)]]
@@ -28,10 +28,10 @@
 *Key Logic:* Reduce higher-dimensional search into smaller pointer problems.
 
 - [X] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] [[[file:15-3sum.ts][TS]]]
-** 4. Counting & Boundary Logic [0/2]
+** 4. Counting & Boundary Logic [1/2]
 *Key Logic:* Use pointer distance and sorted boundaries to count valid states mathematically.
 
-- [ ] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]]
+- [X] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] [[[file:611-valid-triangle-number.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]]
 ** 5. Coordinated Traversal Pattern [2/3]
 *Key Logic:* Coordinate traversal across structures while selectively ignoring irrelevant information.

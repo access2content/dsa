@@ -4,7 +4,7 @@
 - [[#mechanics-and-questions][Mechanics and Questions]]
   - [[#phase-1--coordinated-movement-33][Phase 1 — Coordinated Movement]]
   - [[#phase-2--boundary-creation-33][Phase 2 — Boundary Creation]]
-  - [[#phase-3--search-space-elimination-34][Phase 3 — Search Space Elimination]]
+  - [[#phase-3--search-space-elimination-44][Phase 3 — Search Space Elimination]]
   - [[#phase-4--deferred--dynamic-reasoning-03][Phase 4 — Deferred & Dynamic Reasoning]]
   - [[#phase-5--emergent-pointer-behavior-02][Phase 5 — Emergent Pointer Behavior]]
 - [[#how-to-solve][How to solve]]
@@ -32,7 +32,7 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]] (Single boundary maintenance)
 - [X] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] [[[file:26-remove-duplicates-from-sorted-array.ts][TS]]](Boundary compaction)
 - [X] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] [[[file:75-sort-colors.ts][TS]]] (Multi-boundary invariants)
-** Phase 3 — Search Space Elimination [3/4]
+** Phase 3 — Search Space Elimination [4/4]
 Learn that pointer movement can permanently eliminate impossible states.
 
 Core mechanics:
@@ -44,7 +44,7 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] [[[file:167-two-sum-ii-input-array-is-sorted.ts][TS]]] (Sorted elimination)
 - [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]](Greedy boundary elimination)
 - [X] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] [[[file:15-3sum.ts][TS]]] (Nested search reduction)
-- [ ] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] (Boundary counting)
+- [X] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] [[[file:611-valid-triangle-number.ts][TS]]] (Boundary counting)
 ** Phase 4 — Deferred & Dynamic Reasoning [0/3]
 Learn that pointers can simulate delayed effects and dynamically evolving constraints.
 
