@@ -6,7 +6,7 @@
   - [[#2-partitioning-pattern-readwrite-boundaries-03][2. Partitioning Pattern (Read/Write Boundaries)]]
   - [[#3-search-space-reduction-k-sum-01][3. Search Space Reduction (k-Sum)]]
   - [[#4-counting--boundary-logic-02][4. Counting & Boundary Logic]]
-  - [[#5-coordinated-traversal-pattern-03][5. Coordinated Traversal Pattern]]
+  - [[#5-coordinated-traversal-pattern-13][5. Coordinated Traversal Pattern]]
   - [[#6-fast--slow-pointer-pattern-tortoise-and-hare-02][6. Fast & Slow Pointer Pattern (Tortoise and Hare)]]
   - [[#7-final-boss-global-boundary-invariants-01][7. Final Boss (Global Boundary Invariants)]]
 - [[#how-to-solve][How to solve]]
@@ -33,10 +33,10 @@
 
 - [ ] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]]
 - [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]]
-** 5. Coordinated Traversal Pattern [0/3]
+** 5. Coordinated Traversal Pattern [1/3]
 *Key Logic:* Coordinate traversal across structures while selectively ignoring irrelevant information.
 
-- [ ] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]]
+- [X] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]]
 - [ ] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]]
 - [ ] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]]
 ** 6. Fast & Slow Pointer Pattern (Tortoise and Hare) [0/2]
