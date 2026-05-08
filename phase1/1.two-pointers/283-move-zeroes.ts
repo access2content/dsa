@@ -58,5 +58,5 @@ Movement Rules:
 
 Why Safe:
 - Every non-zero element is written once to the write location
-- All processed elemnts are in the correct order
+- All processed elements are in the correct order
 */

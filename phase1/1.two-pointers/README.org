@@ -3,7 +3,7 @@
 * Table of Contents :toc:
 - [[#mechanics-and-questions][Mechanics and Questions]]
   - [[#phase-1--coordinated-movement-33][Phase 1 — Coordinated Movement]]
-  - [[#phase-2--boundary-creation-13][Phase 2 — Boundary Creation]]
+  - [[#phase-2--boundary-creation-23][Phase 2 — Boundary Creation]]
   - [[#phase-3--search-space-elimination-24][Phase 3 — Search Space Elimination]]
   - [[#phase-4--deferred--dynamic-reasoning-03][Phase 4 — Deferred & Dynamic Reasoning]]
   - [[#phase-5--emergent-pointer-behavior-02][Phase 5 — Emergent Pointer Behavior]]
@@ -21,7 +21,7 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]] (Basic coordinated traversal)
 - [X] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] [[[file:125-valid-palindrome.ts][TS]]] (Skip and compare traversal)
 - [X] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] [[[file:88-merge-sorted-array.ts][TS]]] (Coordinated traversal across structures)
-** Phase 2 — Boundary Creation [1/3]
+** Phase 2 — Boundary Creation [2/3]
 Learn that pointers can define and maintain invariant regions inside arrays.
 
 Core mechanics:
@@ -30,7 +30,7 @@ Core mechanics:
 - Maintaining multiple invariant zones
 
 - [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]] (Single boundary maintenance)
-- [ ] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] (Boundary compaction)
+- [X] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] [[[file:26-remove-duplicates-from-sorted-array.ts][TS]]](Boundary compaction)
 - [ ] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] (Multi-boundary invariants)
 ** Phase 3 — Search Space Elimination [2/4]
 Learn that pointer movement can permanently eliminate impossible states.
