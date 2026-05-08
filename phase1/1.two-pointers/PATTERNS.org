@@ -3,7 +3,7 @@
 * Table of Contents :toc:
 - [[#patterns-and-questions][Patterns and Questions]]
   - [[#1-convering-pointers-opposite-ends-33][1. Convering Pointers (Opposite Ends)]]
-  - [[#2-partitioning-pattern-readwrite-boundaries-23][2. Partitioning Pattern (Read/Write Boundaries)]]
+  - [[#2-partitioning-pattern-readwrite-boundaries-33][2. Partitioning Pattern (Read/Write Boundaries)]]
   - [[#3-search-space-reduction-k-sum-01][3. Search Space Reduction (k-Sum)]]
   - [[#4-counting--boundary-logic-02][4. Counting & Boundary Logic]]
   - [[#5-coordinated-traversal-pattern-23][5. Coordinated Traversal Pattern]]
@@ -18,11 +18,11 @@
 - [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]]
 - [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] [[[file:167-two-sum-ii-input-array-is-sorted.ts][TS]]]
 - [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]]
-** 2. Partitioning Pattern (Read/Write Boundaries) [2/3]
+** 2. Partitioning Pattern (Read/Write Boundaries) [3/3]
 *Key Logic:* Maintain processed vs unprocessed regions while rewriting data in-place.
 
 - [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]]
-- [ ] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]]
+- [X] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] [[[file:75-sort-colors.ts][TS]]]
 - [X] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] [[[file:26-remove-duplicates-from-sorted-array.ts][TS]]]
 ** 3. Search Space Reduction (k-Sum) [0/1]
 *Key Logic:* Reduce higher-dimensional search into smaller pointer problems.

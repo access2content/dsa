@@ -80,5 +80,4 @@ Why safe:
 - The array is sorted, so duplicates appear consecutively
 - Comparing against the previous unique value is sufficient to detect duplicates
 - Values have been written so, no need to process them again
-- read will always find the next non-repeating number
 */
