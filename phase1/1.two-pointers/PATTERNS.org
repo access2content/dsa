@@ -4,7 +4,7 @@
 - [[#patterns-and-questions][Patterns and Questions]]
   - [[#1-convering-pointers-opposite-ends-33][1. Convering Pointers (Opposite Ends)]]
   - [[#2-partitioning-pattern-readwrite-boundaries-33][2. Partitioning Pattern (Read/Write Boundaries)]]
-  - [[#3-search-space-reduction-k-sum-01][3. Search Space Reduction (k-Sum)]]
+  - [[#3-search-space-reduction-k-sum-11][3. Search Space Reduction (k-Sum)]]
   - [[#4-counting--boundary-logic-02][4. Counting & Boundary Logic]]
   - [[#5-coordinated-traversal-pattern-23][5. Coordinated Traversal Pattern]]
   - [[#6-fast--slow-pointer-pattern-tortoise-and-hare-02][6. Fast & Slow Pointer Pattern (Tortoise and Hare)]]
@@ -24,10 +24,10 @@
 - [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]]
 - [X] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] [[[file:75-sort-colors.ts][TS]]]
 - [X] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] [[[file:26-remove-duplicates-from-sorted-array.ts][TS]]]
-** 3. Search Space Reduction (k-Sum) [0/1]
+** 3. Search Space Reduction (k-Sum) [1/1]
 *Key Logic:* Reduce higher-dimensional search into smaller pointer problems.
 
-- [ ] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]]
+- [X] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] [[[file:15-3sum.ts][TS]]]
 ** 4. Counting & Boundary Logic [0/2]
 *Key Logic:* Use pointer distance and sorted boundaries to count valid states mathematically.
 
