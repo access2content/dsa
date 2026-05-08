@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#mechanics-and-questions][Mechanics and Questions]]
-  - [[#phase-1--coordinated-movement-23][Phase 1 — Coordinated Movement]]
+  - [[#phase-1--coordinated-movement-33][Phase 1 — Coordinated Movement]]
   - [[#phase-2--boundary-creation-03][Phase 2 — Boundary Creation]]
   - [[#phase-3--search-space-elimination-24][Phase 3 — Search Space Elimination]]
   - [[#phase-4--deferred--dynamic-reasoning-03][Phase 4 — Deferred & Dynamic Reasoning]]
@@ -10,7 +10,7 @@
 - [[#how-to-solve][How to solve]]
 
 * Mechanics and Questions
-** Phase 1 — Coordinated Movement [2/3]
+** Phase 1 — Coordinated Movement [3/3]
 Learn the fundamental idea that multiple pointers can coordinate to reduce unnecessary work.
 
 Core mechanics:
@@ -20,7 +20,7 @@ Core mechanics:
 
 - [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]] (Basic coordinated traversal)
 - [X] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] [[[file:88-merge-sorted-array.ts][TS]]] (Coordinated traversal across structures)
-- [ ] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] (Skip and compare traversal)
+- [X] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] [[[file:125-valid-palindrome.ts][TS]]] (Skip and compare traversal)
 ** Phase 2 — Boundary Creation [0/3]
 Learn that pointers can define and maintain invariant regions inside arrays.
 
