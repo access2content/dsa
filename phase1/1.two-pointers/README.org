@@ -2,60 +2,63 @@
 
 * Table of Contents :toc:
 - [[#mechanics-and-questions][Mechanics and Questions]]
-  - [[#phase-1--coordinated-movement-33][Phase 1 — Coordinated Movement]]
-  - [[#phase-2--boundary-creation-33][Phase 2 — Boundary Creation]]
+  - [[#phase-1--basic-movement-33][Phase 1 — Basic Movement]]
+  - [[#phase-2--boundary-management-33][Phase 2 — Boundary Management]]
   - [[#phase-3--search-space-elimination-44][Phase 3 — Search Space Elimination]]
-  - [[#phase-4--deferred--dynamic-reasoning-03][Phase 4 — Deferred & Dynamic Reasoning]]
+  - [[#phase-4--advanced-pointer-semantics-03][Phase 4 — Advanced Pointer Semantics]]
   - [[#phase-5--emergent-pointer-behavior-02][Phase 5 — Emergent Pointer Behavior]]
 - [[#how-to-solve][How to solve]]
 
 * Mechanics and Questions
-** Phase 1 — Coordinated Movement [3/3]
-Learn the fundamental idea that multiple pointers can coordinate to reduce unnecessary work.
+** Phase 1 — Basic Movement [3/3]
+Learn the fundamental idea that multiple pointers can coordinate together.
 
 Core mechanics:
 - Opposite-end traversal
 - Pointer coordination
 - Movement based on local conditions
 
-- [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]] (Basic coordinated traversal)
-- [X] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] [[[file:125-valid-palindrome.ts][TS]]] (Skip and compare traversal)
-- [X] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] [[[file:88-merge-sorted-array.ts][TS]]] (Coordinated traversal across structures)
-** Phase 2 — Boundary Creation [3/3]
-Learn that pointers can define and maintain invariant regions inside arrays.
+- [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]] (Basic traversal)
+- [X] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] [[[file:125-valid-palindrome.ts][TS]]] (Basic traversal with additional operation)
+- [X] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] [[[file:88-merge-sorted-array.ts][TS]]] (Traversal across structures)
+** Phase 2 — Boundary Management [3/3]
+Learn that pointers can define and maintain different regions inside arrays.
 
 Core mechanics:
 - Processed vs unprocessed regions
-- Expanding finalized boundaries
-- Maintaining multiple invariant zones
+- Multiple boundaries
+- Expanding boundaries
 
-- [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]] (Single boundary maintenance)
+- [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]] (Single boundary)
+- [X] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] [[[file:75-sort-colors.ts][TS]]] (Multiple boundaries)
 - [X] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] [[[file:26-remove-duplicates-from-sorted-array.ts][TS]]](Boundary compaction)
-- [X] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] [[[file:75-sort-colors.ts][TS]]] (Multi-boundary invariants)
 ** Phase 3 — Search Space Elimination [4/4]
-Learn that pointer movement can permanently eliminate impossible states.
+Learn that pointer movement can permanently eliminate impossible states/regions.
 
 Core mechanics:
-- Sorted search reduction
+- Sorted search space reduction
 - Greedy elimination
-- Nested pointer reduction
-- Counting via boundary distance
+- Nested pointers
+- Using boundaries to count mathematically
 
 - [X] [[https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/][167. Two Sum II - Input Array Is Sorted]] [[[file:167-two-sum-ii-input-array-is-sorted.ts][TS]]] (Sorted elimination)
 - [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]](Greedy boundary elimination)
 - [X] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] [[[file:15-3sum.ts][TS]]] (Nested search reduction)
 - [X] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] [[[file:611-valid-triangle-number.ts][TS]]] (Boundary counting)
-** Phase 4 — Deferred & Dynamic Reasoning [0/3]
-Learn that pointers can simulate delayed effects and dynamically evolving constraints.
-
+** Phase 4 — Advanced Pointer Semantics [0/3]
+Pointers are no longer just moving through data. They now track invisible state and evolving conditions. Learn that pointers can do more than traverse arrays. They can:
+- Track changing validity
+- Simulate hidden effects
+- Reason using global boundaries
+  
 Core mechanics:
-- Deferred processing
-- Dynamic shrinking/expansion
-- Mathematical counting from boundaries
+- Maintaining dynamically valid regions
+- Skipping logically removed state
+- Using global constraints to make local decisions
 
-- [ ] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]] (Deferred traversal effects)
-- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Dynamic window constraints)
-- [ ] [[https://leetcode.com/problems/trapping-rain-water/description/][42. Trapping Rain Water]] (Global boundary interaction)
+- [ ] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]] (Skipping logically deleted characters)
+- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Maintaining a dynamically valid window)
+- [ ] [[https://leetcode.com/problems/trapping-rain-water/description/][42. Trapping Rain Water]] (Using global boundaries to determine local water)
 ** Phase 5 — Emergent Pointer Behavior [0/2]
 Learn that relationships between pointers can themselves reveal hidden structural properties.
 
