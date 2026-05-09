@@ -5,7 +5,7 @@
   - [[#phase-1--basic-movement-33][Phase 1 — Basic Movement]]
   - [[#phase-2--boundary-management-33][Phase 2 — Boundary Management]]
   - [[#phase-3--search-space-elimination-44][Phase 3 — Search Space Elimination]]
-  - [[#phase-4--advanced-pointer-semantics-03][Phase 4 — Advanced Pointer Semantics]]
+  - [[#phase-4--advanced-pointer-semantics-13][Phase 4 — Advanced Pointer Semantics]]
   - [[#phase-5--emergent-pointer-behavior-02][Phase 5 — Emergent Pointer Behavior]]
 - [[#how-to-solve][How to solve]]
 
@@ -45,7 +45,7 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]](Greedy boundary elimination)
 - [X] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] [[[file:15-3sum.ts][TS]]] (Nested search reduction)
 - [X] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] [[[file:611-valid-triangle-number.ts][TS]]] (Boundary counting)
-** Phase 4 — Advanced Pointer Semantics [0/3]
+** Phase 4 — Advanced Pointer Semantics [1/3]
 Pointers are no longer just moving through data. They now track invisible state and evolving conditions. Learn that pointers can do more than traverse arrays. They can:
 - Track changing validity
 - Simulate hidden effects
@@ -56,7 +56,7 @@ Core mechanics:
 - Skipping logically removed state
 - Using global constraints to make local decisions
 
-- [ ] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]] (Skipping logically deleted characters)
+- [X] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]] [[[file:844-backspace-string-compare.ts][TS]]](Skipping logically deleted characters)
 - [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Maintaining a dynamically valid window)
 - [ ] [[https://leetcode.com/problems/trapping-rain-water/description/][42. Trapping Rain Water]] (Using global boundaries to determine local water)
 ** Phase 5 — Emergent Pointer Behavior [0/2]
