@@ -1,7 +1,7 @@
 #+title: 2 Pointer Mechanics
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions][Mechanics and Questions]]
+- [[#mechanics-and-questions-55][Mechanics and Questions]]
   - [[#phase-1--basic-movement-33][Phase 1 — Basic Movement]]
   - [[#phase-2--boundary-management-33][Phase 2 — Boundary Management]]
   - [[#phase-3--search-space-elimination-44][Phase 3 — Search Space Elimination]]
@@ -9,8 +9,9 @@
   - [[#phase-5--emergent-pointer-behavior-22][Phase 5 — Emergent Pointer Behavior]]
 - [[#how-to-solve][How to solve]]
 
-* Mechanics and Questions
-** Phase 1 — Basic Movement [3/3]
+* Mechanics and Questions [5/5]
+** DONE Phase 1 — Basic Movement [3/3]
+CLOSED: [2026-05-10 Sun 16:39]
 Learn the fundamental idea that multiple pointers can coordinate together.
 
 Core mechanics:
@@ -21,7 +22,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/reverse-string/description/][344. Reverse String]] [[[file:344-reverse-string.ts][TS]]] (Basic traversal)
 - [X] [[https://leetcode.com/problems/valid-palindrome/description/][125. Valid Palindrome]] [[[file:125-valid-palindrome.ts][TS]]] (Basic traversal with additional operation)
 - [X] [[https://leetcode.com/problems/merge-sorted-array/description/][88. Merge Sorted Array]] [[[file:88-merge-sorted-array.ts][TS]]] (Traversal across structures)
-** Phase 2 — Boundary Management [3/3]
+** DONE Phase 2 — Boundary Management [3/3]
+CLOSED: [2026-05-10 Sun 16:39]
 Learn that pointers can define and maintain different regions inside arrays.
 
 Core mechanics:
@@ -32,7 +34,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/move-zeroes/description/][283. Move Zeroes]] [[[file:283-move-zeroes.ts][TS]]] (Single boundary)
 - [X] [[https://leetcode.com/problems/sort-colors/description/][75. Sort Colors]] [[[file:75-sort-colors.ts][TS]]] (Multiple boundaries)
 - [X] [[https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/][26. Remove Duplicates from Sorted Array]] [[[file:26-remove-duplicates-from-sorted-array.ts][TS]]](Boundary compaction)
-** Phase 3 — Search Space Elimination [4/4]
+** DONE Phase 3 — Search Space Elimination [4/4]
+CLOSED: [2026-05-10 Sun 16:39]
 Learn that pointer movement can permanently eliminate impossible states/regions.
 
 Core mechanics:
@@ -45,7 +48,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/container-with-most-water/description/][11. Container With Most Water]] [[[file:11-container-with-most-water.ts][TS]]](Greedy boundary elimination)
 - [X] [[https://leetcode.com/problems/3sum/description/][15. 3Sum]] [[[file:15-3sum.ts][TS]]] (Nested search reduction)
 - [X] [[https://leetcode.com/problems/valid-triangle-number/description/][611. Valid Triangle Number]] [[[file:611-valid-triangle-number.ts][TS]]] (Boundary counting)
-** Phase 4 — Advanced Pointer Semantics [3/3]
+** DONE Phase 4 — Advanced Pointer Semantics [3/3]
+CLOSED: [2026-05-10 Sun 16:39]
 Pointers are no longer just moving through data. They now track invisible state and evolving conditions. Learn that pointers can do more than traverse arrays. They can:
 - Track changing validity
 - Simulate hidden effects
@@ -59,7 +63,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/backspace-string-compare/description/][844. Backspace String Compare]] [[[file:844-backspace-string-compare.ts][TS]]](Skipping logically deleted characters)
 - [X] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] [[[file:713-subarray-product-less-than-k.ts][TS]]](Maintaining a dynamically valid window)
 - [X] [[https://leetcode.com/problems/trapping-rain-water/description/][42. Trapping Rain Water]] [[[file:42-trapping-rain-water.ts][TS]]] (Using global boundaries to determine local water)
-** Phase 5 — Emergent Pointer Behavior [2/2]
+** DONE Phase 5 — Emergent Pointer Behavior [2/2]
+CLOSED: [2026-05-10 Sun 16:39]
 Learn that relationships between pointers can themselves reveal hidden structural properties.
 
 Core mechanics:
