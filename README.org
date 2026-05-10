@@ -8,7 +8,7 @@
   - [[#what-to-focus-on][What to focus on]]
   - [[#15-minute-rule][15 minute rule]]
   - [[#debug-without-a-debugger][Debug Without a Debugger]]
-- [[#phase-1---array-traversal--lookup][Phase 1 - Array Traversal & Lookup]]
+- [[#phase-1---array-traversal--lookup-14][Phase 1 - Array Traversal & Lookup]]
   - [[#1-two-pointers][1. Two Pointers]]
   - [[#2-sliding-window][2. Sliding Window]]
   - [[#3-prefix-sum][3. Prefix Sum]]
@@ -79,8 +79,9 @@ The biggest differentiator is not - “Did you study another algorithm?” It is
 If you can’t identify the pattern and write a rough pseudocode within 15 minutes, stop and look at the hint. Speed of recognition is a muscle—don't waste 2 hours "stuck" on the wrong pattern.
 ** Debug Without a Debugger
 Practice dry-running your code on paper or in comments with a small test case (e.g., arr = [1, 2, 3]). In many interviews, you won't have a compiler to tell you where the bug is.
-* Phase 1 - Array Traversal & Lookup
-** 1. Two Pointers
+* Phase 1 - Array Traversal & Lookup [1/4]
+** DONE 1. Two Pointers
+CLOSED: [2026-05-10 Sun 16:41]
 [[[file:phase1/1.two-pointers/README.org][Mechanics]]] [[[file:phase1/1.two-pointers/PATTERNS.org][Patterns]]]
 - Opposite ends
 - Read/Write
@@ -90,15 +91,20 @@ Practice dry-running your code on paper or in comments with a small test case (e
 - Skip and Compare
 - Fast/slow pointers
 - Prefix/Suffix
-** 2. Sliding Window
-- Fixed window
-- Variable window
-- Frequency-window tracking
-** 3. Prefix Sum
+** TODO 2. Sliding Window
+[[[file:phase1/2.sliding-window/README.org][Mechanics]]] [[[file:phase1/2.sliding-window/PATTERNS.org][Patterns]]]
+- Fixed Size Window
+- Expand & Shrink Window (Variable Size)
+- Window Counting Pattern
+- Frequency Map / Multiset Window
+- Monotonic Window Optimization
+- Prefix Sum Boundary Problems
+- Circular / Wraparound Window
+** TODO 3. Prefix Sum
 - Range queries
 - Running totals
 - Hashmap + prefix sum combinations
-** 4. Hashmaps
+** TODO 4. Hashmaps
 - Frequency counting
 - Lookup optimization
 - Deduplication

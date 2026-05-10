@@ -1,0 +1,73 @@
+#+title: Mechanics for Sliding Window
+
+* Table of Contents :toc:
+- [[#core-idea][Core Idea]]
+- [[#mechanics-and-questions-07][Mechanics and Questions]]
+  - [[#phase-1--core-window-mechanics-03][Phase 1 — Core Window Mechanics]]
+  - [[#phase-2--validity-engineering-04][Phase 2 — Validity Engineering]]
+  - [[#phase-3--boundary-semantics--counting-02][Phase 3 — Boundary Semantics & Counting]]
+  - [[#phase-4--structural-optimization-02][Phase 4 — Structural Optimization]]
+  - [[#phase-5--transformational-thinking-01][Phase 5 — Transformational Thinking]]
+  - [[#phase-6--multi-invariant-systems-01][Phase 6 — Multi-Invariant Systems]]
+  - [[#phase-7--boundary-of-the-technique-01][Phase 7 — Boundary of the Technique]]
+- [[#notes][Notes]]
+- [[#how-to-solve][How to solve]]
+
+* Core Idea
+Instead of recalculating every subarray independently, maintain a contiguous window [left, right] and adjust it dynamically. Sliding window is fundamentally about maintaining a dynamically valid contiguous region while updating state incrementally.
+
+The entire technique is about:
+- Expanding when the window is valid/useful
+- Shrinking when the window becomes invalid/excessive
+- Reusing previous work instead of recomputing
+
+The important realizations are:
+- You avoid recomputing full ranges
+- State evolves incrementally
+- Boundaries encode logical validity
+- Pointer movement represents proof that discarded states are permanently irrelevant
+* Mechanics and Questions [0/7]
+** TODO Phase 1 — Core Window Mechanics [0/3]
+*Key Logic:* Learn how sliding windows physically operate through boundary movement and incremental state updates.
+
+- [ ] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] (Fixed-size rolling state)
+- [ ] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] (Greedy expand/shrink mechanics)
+- [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Dynamic validity maintenance)
+** TODO Phase 2 — Validity Engineering [0/4]
+*Key Logic:* Learn how windows tolerate violations, approximate correctness, and maintain logical validity.
+
+- [ ] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] (K-tolerance validity)
+- [ ] [[https://leetcode.com/problems/longest-repeating-character-replacement/description/][424. Longest Repeating Character Replacement]] (Lazy/stale validity)
+- [ ] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] (Frequency matching mechanics)
+- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Counting valid boundaries)
+** TODO Phase 3 — Boundary Semantics & Counting [0/2]
+*Key Logic:* Learn how window boundaries themselves encode mathematical meaning.
+
+- [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Exact-K via atMost transformation)
+- [ ] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] (Advanced exact-K counting)
+** TODO Phase 4 — Structural Optimization [0/2]
+*Key Logic:* Learn how windows preserve only structurally optimal candidates.
+
+- [ ] [[https://leetcode.com/problems/sliding-window-maximum/description/][239. Sliding Window Maximum]] (Monotonic candidate preservation)
+- [ ] [[https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/][1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit]] (Dual monotonic structures)
+** TODO Phase 5 — Transformational Thinking [0/1]
+*Key Logic:* Learn how difficult problems can be inverted into retainable windows.
+
+- [ ] [[https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/][1658. Minimum Operations to Reduce X to Zero]] (Problem inversion mechanics)
+** TODO Phase 6 — Multi-Invariant Systems [0/1]
+*Key Logic:* Maintain multiple interacting constraints while preserving optimality.
+
+- [ ] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] (Multi-constraint invariant maintenance)
+** TODO Phase 7 — Boundary of the Technique [0/1]
+*Key Logic:* Learn when sliding window fundamentally breaks due to loss of monotonicity.
+
+- [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Why negatives break sliding windows)
+* Notes
+- 76 (Minimum Window Substring) is the "gold standard" for sliding window. If you can solve it without looking at a solution and explain why you move each pointer, you have mastered the core logic of the pattern.
+- Section 3 (Counting) and Section 6 (Hybrid) are the areas where the most unique "logic leaps" happen.
+* How to solve
+After every problem, write:
+- Invariant — “What is always guaranteed to be correct?”
+- Expansion rule — “When can the right pointer expand?”
+- Shrink rule — “When must the left pointer move?”
+- Why shrinking is safe — “Why can removed elements never help future windows?”
