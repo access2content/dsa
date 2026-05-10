@@ -2,8 +2,8 @@
 
 * Table of Contents :toc:
 - [[#core-idea][Core Idea]]
-- [[#patterns-and-questions-08][Patterns and Questions]]
-  - [[#1-fixed-size-window-02][1. Fixed Size Window]]
+- [[#patterns-and-questions-0][Patterns and Questions]]
+  - [[#1-fixed-size-window-12][1. Fixed Size Window]]
   - [[#2-expand--shrink-window-variable-size-04][2. Expand & Shrink Window (Variable Size)]]
   - [[#3-window-counting-pattern-03][3. Window Counting Pattern]]
   - [[#4-frequency-map--multiset-window-03][4. Frequency Map / Multiset Window]]
@@ -27,11 +27,11 @@ The important realizations are:
 - State evolves incrementally
 - Boundaries encode logical validity
 - Pointer movement represents proof that discarded states are permanently irrelevant
-* Patterns and Questions [0/8]
-** TODO 1. Fixed Size Window [0/2]
+* Patterns and Questions [0%]
+** TODO 1. Fixed Size Window [1/2]
 *Key Logic:* Maintain a window of exact size `k` while updating state incrementally as elements enter and leave.
 
-- [ ] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] (Basic fixed-size rolling window)
+- [X] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] [[[file:643-maximum-average-subarray-i.ts][TS]]] (Basic fixed-size rolling window)
 - [ ] [[https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/][1456. Maximum Number of Vowels in a Substring of Given Length]] (Character counting in fixed windows)
 ** TODO 2. Expand & Shrink Window (Variable Size) [0/4]
 *Key Logic:* Expand the window greedily, then shrink only when constraints become invalid.
