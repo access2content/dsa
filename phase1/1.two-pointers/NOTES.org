@@ -1,0 +1,10 @@
+#+title: Notes
+
+* Trapping Rain Water
+This was a conceptual leap to understand. Just trying to understand how to approach the problem in itself was a big task. There were many "aha" moments during this.
+
+The first and the foremost was thinking in terms of individual columns instead of an area. Initially, it is very common to think about area when we want to see rain water trapped. However, there comes a time when I realized that the amount of water that a single column can hold can also be calculated. This changed the entire perspective on looking at the problem.
+
+The second shift was when I understood the concept that the amount of water that can be filled is basically decided by the maximum sized column to the left and right of the current one. The smaller of the two is going to be the limiting factor as any more amount of water would simply overflow.
+
+The hardest part however was the trust part. As an Engineer, we are trained to expect all information present all any moment to make all the decisions. In this case, if we had to calculate the amount of water trapped above a column, we would want to know for sure the max column on left and max column on right. However, the optimal 2 pointer solution does not care about that. This problem teaches that we can make decisions based on "just enough" information. In this case, since we know that the column with the lowest water is the limiting factor, we process just the column with the lowest height. I know this explanation does not make sense right now, but once you understand the solution and read it again, this will make sense.
