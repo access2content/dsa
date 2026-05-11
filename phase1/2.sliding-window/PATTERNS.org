@@ -6,7 +6,7 @@
   - [[#1-fixed-size-window-22][1. Fixed Size Window]]
   - [[#2-expand--shrink-window-variable-size-44][2. Expand & Shrink Window (Variable Size)]]
   - [[#3-window-counting-pattern-03][3. Window Counting Pattern]]
-  - [[#4-frequency-map--multiset-window-03][4. Frequency Map / Multiset Window]]
+  - [[#4-frequency-map--multiset-window-13][4. Frequency Map / Multiset Window]]
   - [[#5-monotonic-window-optimization-02][5. Monotonic Window Optimization]]
   - [[#6-prefix-sum-boundary-problems-02][6. Prefix Sum Boundary Problems]]
   - [[#7-circular--wraparound-window-01][7. Circular / Wraparound Window]]
@@ -48,10 +48,10 @@ CLOSED: [2026-05-11 Mon 16:00]
 - [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Classic counting formula)
 - [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Transform exact count into atMost logic)
 - [ ] [[https://leetcode.com/problems/count-number-of-nice-subarrays/description/][1248. Count Number of Nice Subarrays]] (Prefix/count hybrid thinking)
-** TODO 4. Frequency Map / Multiset Window [0/3]
+** TODO 4. Frequency Map / Multiset Window [1/3]
 *Key Logic:* Track frequencies dynamically while expanding and shrinking to satisfy matching constraints.
 
-- [ ] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] (Fixed-size frequency matching)
+- [X] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] [[[file:567-permutation-in-string.ts][TS]]] (Fixed-size frequency matching)
 - [ ] [[https://leetcode.com/problems/find-all-anagrams-in-a-string/description/][438. Find All Anagrams in a String]] (Sliding hashmap equality)
 - [ ] [[https://leetcode.com/problems/fruit-into-baskets/description/][904. Fruit Into Baskets]] (Distinct-count constraint window)
 ** TODO 5. Monotonic Window Optimization [0/2]
