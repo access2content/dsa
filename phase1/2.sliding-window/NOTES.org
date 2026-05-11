@@ -1,0 +1,15 @@
+#+title: Notes
+
+* Thinking about windows conceptually
+** Boundaries define the min/max
+Don't use a counter to count min or max, the boundary itself defines the count.
+** Window Validity and Shrinkage
+The main concept is that we keep expanding the window in each iteration.
+Then, we check if the window is valid. This should not actually be dependent on the actual structure or something. Validating a window is something different and can be abstracted away.
+
+If the window is invalid, the window needs to be shrunk till a point where it is still valid. Note that a window should always be valid no matter what. Usually `[start ... end]`.
+
+Sliding window is really "dynamic constraint satisfaction over a contiguous region" where:
+- expansion may violate constraints
+- contraction restores constraints
+- monotonicity guarantees linear traversal

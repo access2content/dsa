@@ -4,7 +4,7 @@
 - [[#core-idea][Core Idea]]
 - [[#mechanics-and-questions-14][Mechanics and Questions]]
   - [[#phase-1--core-window-mechanics-33][Phase 1 — Core Window Mechanics]]
-  - [[#phase-2--validity-engineering-04][Phase 2 — Validity Engineering]]
+  - [[#phase-2--validity-engineering-14][Phase 2 — Validity Engineering]]
   - [[#phase-3--boundary-semantics--counting-02][Phase 3 — Boundary Semantics & Counting]]
   - [[#phase-4--structural-optimization-02][Phase 4 — Structural Optimization]]
   - [[#phase-5--transformational-thinking-01][Phase 5 — Transformational Thinking]]
@@ -34,10 +34,10 @@ CLOSED: [2026-05-11 Mon 13:59]
 - [X] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] [[[file:643-maximum-average-subarray-i.ts][TS]]] (Fixed-size rolling state)
 - [X] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] [[[file:209-minimum-size-subarray-sum.ts][TS]]] (Greedy expand/shrink mechanics)
 - [X] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] [[[file:3-longest-substring-without-repeating-characters.ts][TS]]] (Dynamic validity maintenance)
-** TODO Phase 2 — Validity Engineering [0/4]
+** TODO Phase 2 — Validity Engineering [1/4]
 *Key Logic:* Learn how windows tolerate violations, approximate correctness, and maintain logical validity.
 
-- [ ] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] (K-tolerance validity)
+- [X] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] [[[file:1004-max-consecutive-ones-iii.ts][TS]]] (K-tolerance validity)
 - [ ] [[https://leetcode.com/problems/longest-repeating-character-replacement/description/][424. Longest Repeating Character Replacement]] (Lazy/stale validity)
 - [ ] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] (Frequency matching mechanics)
 - [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Counting valid boundaries)
