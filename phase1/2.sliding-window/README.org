@@ -3,7 +3,7 @@
 * Table of Contents :toc:
 - [[#core-idea][Core Idea]]
 - [[#mechanics-and-questions-0][Mechanics and Questions]]
-  - [[#phase-1--core-window-mechanics-13][Phase 1 — Core Window Mechanics]]
+  - [[#phase-1--core-window-mechanics-23][Phase 1 — Core Window Mechanics]]
   - [[#phase-2--validity-engineering-04][Phase 2 — Validity Engineering]]
   - [[#phase-3--boundary-semantics--counting-02][Phase 3 — Boundary Semantics & Counting]]
   - [[#phase-4--structural-optimization-02][Phase 4 — Structural Optimization]]
@@ -27,11 +27,11 @@ The important realizations are:
 - Boundaries encode logical validity
 - Pointer movement represents proof that discarded states are permanently irrelevant
 * Mechanics and Questions [0%]
-** TODO Phase 1 — Core Window Mechanics [1/3]
+** TODO Phase 1 — Core Window Mechanics [2/3]
 *Key Logic:* Learn how sliding windows physically operate through boundary movement and incremental state updates.
 
 - [X] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] [[[file:643-maximum-average-subarray-i.ts][TS]]] (Fixed-size rolling state)
-- [ ] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] (Greedy expand/shrink mechanics)
+- [X] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] [[[file:209-minimum-size-subarray-sum.ts][TS]]] (Greedy expand/shrink mechanics)
 - [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Dynamic validity maintenance)
 ** TODO Phase 2 — Validity Engineering [0/4]
 *Key Logic:* Learn how windows tolerate violations, approximate correctness, and maintain logical validity.

@@ -4,7 +4,7 @@
 - [[#core-idea][Core Idea]]
 - [[#patterns-and-questions-0][Patterns and Questions]]
   - [[#1-fixed-size-window-12][1. Fixed Size Window]]
-  - [[#2-expand--shrink-window-variable-size-04][2. Expand & Shrink Window (Variable Size)]]
+  - [[#2-expand--shrink-window-variable-size-14][2. Expand & Shrink Window (Variable Size)]]
   - [[#3-window-counting-pattern-03][3. Window Counting Pattern]]
   - [[#4-frequency-map--multiset-window-03][4. Frequency Map / Multiset Window]]
   - [[#5-monotonic-window-optimization-02][5. Monotonic Window Optimization]]
@@ -33,10 +33,10 @@ The important realizations are:
 
 - [X] [[https://leetcode.com/problems/maximum-average-subarray-i/description/][643. Maximum Average Subarray I]] [[[file:643-maximum-average-subarray-i.ts][TS]]] (Basic fixed-size rolling window)
 - [ ] [[https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/][1456. Maximum Number of Vowels in a Substring of Given Length]] (Character counting in fixed windows)
-** TODO 2. Expand & Shrink Window (Variable Size) [0/4]
+** TODO 2. Expand & Shrink Window (Variable Size) [1/4]
 *Key Logic:* Expand the window greedily, then shrink only when constraints become invalid.
 
-- [ ] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]] (Smallest valid window)
+- [X] [[https://leetcode.com/problems/minimum-size-subarray-sum/description/][209. Minimum Size Subarray Sum]]  [[[file:209-minimum-size-subarray-sum.ts][TS]]] (Smallest valid window)
 - [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Duplicate removal logic)
 - [ ] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] (Limited violations allowed)
 - [ ] [[https://leetcode.com/problems/longest-repeating-character-replacement/description/][424. Longest Repeating Character Replacement]] (Window validity with replacements)
