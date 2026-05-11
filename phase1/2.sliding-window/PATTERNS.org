@@ -5,7 +5,7 @@
 - [[#patterns-and-questions-25][Patterns and Questions]]
   - [[#1-fixed-size-window-22][1. Fixed Size Window]]
   - [[#2-expand--shrink-window-variable-size-44][2. Expand & Shrink Window (Variable Size)]]
-  - [[#3-window-counting-pattern-03][3. Window Counting Pattern]]
+  - [[#3-window-counting-pattern-13][3. Window Counting Pattern]]
   - [[#4-frequency-map--multiset-window-13][4. Frequency Map / Multiset Window]]
   - [[#5-monotonic-window-optimization-02][5. Monotonic Window Optimization]]
   - [[#6-prefix-sum-boundary-problems-02][6. Prefix Sum Boundary Problems]]
@@ -42,10 +42,10 @@ CLOSED: [2026-05-11 Mon 16:00]
 - [X] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] [[[file:3-longest-substring-without-repeating-characters.ts][TS]]] (Duplicate removal logic)
 - [X] [[https://leetcode.com/problems/max-consecutive-ones-iii/description/][1004. Max Consecutive Ones III]] [[[file:1004-max-consecutive-ones-iii.ts][TS]]] (Limited violations allowed)
 - [X] [[https://leetcode.com/problems/longest-repeating-character-replacement/description/][424. Longest Repeating Character Replacement]] [[[file:424-longest-repeating-character-replacement.ts][TS]]] (Window validity with replacements)
-** TODO 3. Window Counting Pattern [0/3]
+** TODO 3. Window Counting Pattern [1/3]
 *Key Logic:* Count all valid subarrays ending at `right` using window boundaries instead of enumerating them.
 
-- [ ] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] (Classic counting formula)
+- [X] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] [[[file:../1.two-pointers/713-subarray-product-less-than-k.ts][TS]]] (Classic counting formula)
 - [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Transform exact count into atMost logic)
 - [ ] [[https://leetcode.com/problems/count-number-of-nice-subarrays/description/][1248. Count Number of Nice Subarrays]] (Prefix/count hybrid thinking)
 ** TODO 4. Frequency Map / Multiset Window [1/3]
