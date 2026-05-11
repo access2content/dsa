@@ -13,3 +13,7 @@ Sliding window is really "dynamic constraint satisfaction over a contiguous regi
 - expansion may violate constraints
 - contraction restores constraints
 - monotonicity guarantees linear traversal
+** 424 and Invalid Windows
+For problem 424, there seems to be a window that is invalid. The size is invalid and this is one conceptual leap. This problem seems hard if we don't abstract the problem. The abstraction is window validity which we do by maintaining a count of replacements needed.
+
+A window might be temporarily invalid, if somehow we maintain the state of max correctness.
