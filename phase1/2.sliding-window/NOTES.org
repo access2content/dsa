@@ -17,3 +17,11 @@ Sliding window is really "dynamic constraint satisfaction over a contiguous regi
 For problem 424, there seems to be a window that is invalid. The size is invalid and this is one conceptual leap. This problem seems hard if we don't abstract the problem. The abstraction is window validity which we do by maintaining a count of replacements needed.
 
 A window might be temporarily invalid, if somehow we maintain the state of max correctness.
+** 930 and Monotonicity
+For problem 930, there is something very important to note. The thing that we are trying to do is find subarrays with exact sum. The thing with that is about the window shrink/expand mechanism. The window can become valid/invalid even when we shrink the window and even when we expand the window. This should not usually happen.
+
+The usual pattern is we expand the window till it becomes invalid, then we shrink the window till it becomes valid. This is the monotonic nature. However, for 930, shrinking the window might also cause the window to be invalid, which causes difficulties and instability. Hence, to avoid this, or to solve this, we use mathematics instead.
+
+Instead of comparing with the exact goal, we compare with <= goal. This way, shrinking the window ensures that we can return to a valid state. This now has its own problem that we don't really get the exact goal value in this case. Which then, is solved using maths again.
+
+Let's say the goal is 10. If instead of saying we need exactly 10, we say we need <= 10. The problem now becomes solvable with sliding windows. Next, we need to somehow get the sum exactly 10, but we have <= 10. So, our task now is to remove all those elements that are < 10 from this solution, isn't it? So, can we again convert this to <=9 instead of <10? So, by using maths, if we do numSubarraysWithSum(nums, 10) - numSubarraysWithSum(nums, 9), we should get our answer.

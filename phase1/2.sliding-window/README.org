@@ -5,7 +5,7 @@
 - [[#mechanics-and-questions-28][Mechanics and Questions]]
   - [[#phase-1--core-window-mechanics-33][Phase 1 — Core Window Mechanics]]
   - [[#phase-2--validity-engineering-44][Phase 2 — Validity Engineering]]
-  - [[#phase-3--boundary-semantics--counting-02][Phase 3 — Boundary Semantics & Counting]]
+  - [[#phase-3--boundary-semantics--counting-12][Phase 3 — Boundary Semantics & Counting]]
   - [[#phase-4--structural-optimization-02][Phase 4 — Structural Optimization]]
   - [[#phase-5--transformational-thinking-01][Phase 5 — Transformational Thinking]]
   - [[#phase-6--multi-invariant-systems-01][Phase 6 — Multi-Invariant Systems]]
@@ -42,10 +42,10 @@ CLOSED: [2026-05-11 Mon 18:11]
 - [X] [[https://leetcode.com/problems/longest-repeating-character-replacement/description/][424. Longest Repeating Character Replacement]] [[[file:424-longest-repeating-character-replacement.ts][TS]]] (Lazy/stale validity)
 - [X] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] [[[file:567-permutation-in-string.ts][TS]]] (Frequency matching mechanics)
 - [X] [[https://leetcode.com/problems/subarray-product-less-than-k/description/][713. Subarray Product Less Than K]] [[[file:../1.two-pointers/713-subarray-product-less-than-k.ts][TS]]] (Counting valid boundaries)
-** TODO Phase 3 — Boundary Semantics & Counting [0/2]
+** TODO Phase 3 — Boundary Semantics & Counting [1/2]
 *Key Logic:* Learn how window boundaries themselves encode mathematical meaning.
 
-- [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Exact-K via atMost transformation)
+- [X] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] [[[file:930-binary-subarrays-with-sum.ts][TS]]] (Exact-K via atMost transformation)
 - [ ] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] (Advanced exact-K counting)
 ** TODO Phase 4 — Structural Optimization [0/2]
 *Key Logic:* Learn how windows preserve only structurally optimal candidates.
