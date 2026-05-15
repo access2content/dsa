@@ -10,7 +10,7 @@
   - [[#5-monotonic-window-optimization-02][5. Monotonic Window Optimization]]
   - [[#6-prefix-sum-boundary-problems-02][6. Prefix Sum Boundary Problems]]
   - [[#7-circular--wraparound-window-01][7. Circular / Wraparound Window]]
-  - [[#8-final-boss-multiple-constraints--advanced-invariants-02][8. Final Boss (Multiple Constraints / Advanced Invariants)]]
+  - [[#8-final-boss-multiple-constraints--advanced-invariants-12][8. Final Boss (Multiple Constraints / Advanced Invariants)]]
 - [[#notes][Notes]]
 - [[#how-to-solve][How to solve]]
 
@@ -68,12 +68,11 @@ CLOSED: [2026-05-11 Mon 16:00]
 *Key Logic:* Simulate a window over cyclic data structures without physically rotating them.
 
 - [ ] [[https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/][2134. Minimum Swaps to Group All 1's Together II]] (Circular fixed window)
-** TODO 8. Final Boss (Multiple Constraints / Advanced Invariants) [0/2]
+** TODO 8. Final Boss (Multiple Constraints / Advanced Invariants) [1/2]
 *Key Logic:* Simultaneously maintain several conditions while preserving optimality.
 
 - [ ] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] (Minimum valid covering window)
-- [ ] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] (Exact-K via atMost transformation)
-
+- [X] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] [[[file:992-subarrays-with-k-different-integers.ts][TS]]] (Exact-K via atMost transformation)
 * Notes
 - 76 (Minimum Window Substring) is the "gold standard" for sliding window. If you can solve it without looking at a solution and explain why you move each pointer, you have mastered the core logic of the pattern.
 - Section 3 (Counting) and Section 6 (Hybrid) are the areas where the most unique "logic leaps" happen.
