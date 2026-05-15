@@ -28,3 +28,7 @@ Let's say the goal is 10. If instead of saying we need exactly 10, we say we nee
 There are various additional data structures that are required to solve problems. One of them is a Dequeue. For the problems here, using Dequeue with a monotonic property is the main thing. We have to ensure that we create a monotonic relation for the dequeue. Also, it is not necessary to insert just the values, using indexes is also a valid approach. It is all about knowing your data structures and what meaning you can assign to those.
 * Converting problems to sliding window
 Not all questions directly imply sliding window. It is up to you to understand the core mechanics required behind the question and find the hidden pattern. For question no. 1658, it might not directly scream sliding window. It seems like a 2 pointer problem with brute force at the start. However, if you invert the question, you can see that we can actually convert it into a sliding window solution.
+* Using 128 length ASCII grid
+Instead of compressing to 56 for all English characters, using 128 ASCII chars and the character code is perfectly acceptable.
+* Compressing/Absctracting Invariants
+For problem no. 76, there are multiple conditions that we have to ensure for a match. Hence, we can use a single number to indicate/absctract these conditions/invariants. Then, the solution becomes much simpler as we rely only on that single abstracted entity instead of an actual data structure.

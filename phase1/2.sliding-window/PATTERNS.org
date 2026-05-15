@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#core-idea][Core Idea]]
-- [[#patterns-and-questions-37][Patterns and Questions]]
+- [[#patterns-and-questions-50][Patterns and Questions]]
   - [[#1-fixed-size-window-22][1. Fixed Size Window]]
   - [[#2-expand--shrink-window-variable-size-44][2. Expand & Shrink Window (Variable Size)]]
   - [[#3-window-counting-pattern-23][3. Window Counting Pattern]]
@@ -10,7 +10,7 @@
   - [[#5-monotonic-window-optimization-22][5. Monotonic Window Optimization]]
   - [[#6-prefix-sum-boundary-problems-12][6. Prefix Sum Boundary Problems]]
   - [[#7-circular--wraparound-window-01][7. Circular / Wraparound Window]]
-  - [[#8-final-boss-multiple-constraints--advanced-invariants-12][8. Final Boss (Multiple Constraints / Advanced Invariants)]]
+  - [[#8-final-boss-multiple-constraints--advanced-invariants-22][8. Final Boss (Multiple Constraints / Advanced Invariants)]]
 - [[#notes][Notes]]
 - [[#how-to-solve][How to solve]]
 
@@ -27,7 +27,7 @@ The important realizations are:
 - State evolves incrementally
 - Boundaries encode logical validity
 - Pointer movement represents proof that discarded states are permanently irrelevant
-* Patterns and Questions [37%]
+* Patterns and Questions [50%]
 ** DONE 1. Fixed Size Window [2/2]
 CLOSED: [2026-05-11 Mon 17:37]
 *Key Logic:* Maintain a window of exact size `k` while updating state incrementally as elements enter and leave.
@@ -69,10 +69,11 @@ CLOSED: [2026-05-15 Fri 15:46]
 *Key Logic:* Simulate a window over cyclic data structures without physically rotating them.
 
 - [ ] [[https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/][2134. Minimum Swaps to Group All 1's Together II]] (Circular fixed window)
-** TODO 8. Final Boss (Multiple Constraints / Advanced Invariants) [1/2]
+** DONE 8. Final Boss (Multiple Constraints / Advanced Invariants) [2/2]
+CLOSED: [2026-05-15 Fri 20:19]
 *Key Logic:* Simultaneously maintain several conditions while preserving optimality.
 
-- [ ] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] (Minimum valid covering window)
+- [X] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] [[[file:76-minimum-window-substring.ts][TS]]] (Minimum valid covering window)
 - [X] [[https://leetcode.com/problems/subarrays-with-k-different-integers/description/][992. Subarrays with K Different Integers]] [[[file:992-subarrays-with-k-different-integers.ts][TS]]] (Exact-K via atMost transformation)
 * Notes
 - 76 (Minimum Window Substring) is the "gold standard" for sliding window. If you can solve it without looking at a solution and explain why you move each pointer, you have mastered the core logic of the pattern.

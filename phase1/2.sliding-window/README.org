@@ -2,13 +2,13 @@
 
 * Table of Contents :toc:
 - [[#core-idea][Core Idea]]
-- [[#mechanics-and-questions-71][Mechanics and Questions]]
+- [[#mechanics-and-questions-85][Mechanics and Questions]]
   - [[#phase-1--core-window-mechanics-33][Phase 1 — Core Window Mechanics]]
   - [[#phase-2--validity-engineering-44][Phase 2 — Validity Engineering]]
   - [[#phase-3--boundary-semantics--counting-22][Phase 3 — Boundary Semantics & Counting]]
   - [[#phase-4--structural-optimization-22][Phase 4 — Structural Optimization]]
   - [[#phase-5--transformational-thinking-11][Phase 5 — Transformational Thinking]]
-  - [[#phase-6--multi-invariant-systems-01][Phase 6 — Multi-Invariant Systems]]
+  - [[#phase-6--multi-invariant-systems-11][Phase 6 — Multi-Invariant Systems]]
   - [[#phase-7--boundary-of-the-technique-01][Phase 7 — Boundary of the Technique]]
 - [[#notes][Notes]]
 - [[#how-to-solve][How to solve]]
@@ -26,7 +26,7 @@ The important realizations are:
 - State evolves incrementally
 - Boundaries encode logical validity
 - Pointer movement represents proof that discarded states are permanently irrelevant
-* Mechanics and Questions [71%]
+* Mechanics and Questions [85%]
 ** DONE Phase 1 — Core Window Mechanics [3/3]
 CLOSED: [2026-05-11 Mon 13:59]
 *Key Logic:* Learn how sliding windows physically operate through boundary movement and incremental state updates.
@@ -59,10 +59,11 @@ CLOSED: [2026-05-15 Fri 16:26]
 *Key Logic:* Learn how difficult problems can be inverted into retainable windows.
 
 - [X] [[https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/][1658. Minimum Operations to Reduce X to Zero]] [[[file:1658-minimum-operations-to-reduce-x-to-zero.ts][TS]]] (Problem inversion mechanics)
-** TODO Phase 6 — Multi-Invariant Systems [0/1]
+** DONE Phase 6 — Multi-Invariant Systems [1/1]
+CLOSED: [2026-05-15 Fri 20:18]
 *Key Logic:* Maintain multiple interacting constraints while preserving optimality.
 
-- [ ] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] (Multi-constraint invariant maintenance)
+- [X] [[https://leetcode.com/problems/minimum-window-substring/description/][76. Minimum Window Substring]] [[[file:76-minimum-window-substring.ts][TS]]] (Multi-constraint invariant maintenance)
 ** TODO Phase 7 — Boundary of the Technique [0/1]
 *Key Logic:* Learn when sliding window fundamentally breaks due to loss of monotonicity.
 
