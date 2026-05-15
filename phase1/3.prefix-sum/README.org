@@ -1,0 +1,54 @@
+#+title: Prefix Sum Mechanics
+
+* Table of Contents :toc:
+- [[#mechanics-and-questions-0][Mechanics and Questions]]
+  - [[#phase-1--running-accumulation-fundamentals-02][Phase 1 — Running Accumulation Fundamentals]]
+  - [[#phase-2--historical-prefix-matching-06][Phase 2 — Historical Prefix Matching]]
+  - [[#phase-3--prefix-optimization--dynamic-structures-03][Phase 3 — Prefix Optimization & Dynamic Structures]]
+  - [[#phase-4--multidimensional-prefix-compression-03][Phase 4 — Multidimensional Prefix Compression]]
+  - [[#phase-5--boundary-of-the-technique-01][Phase 5 — Boundary of the Technique]]
+- [[#notes][Notes]]
+
+* Mechanics and Questions [0%]
+** TODO Phase 1 — Running Accumulation Fundamentals [0/2]
+*Key Logic:* Learn how cumulative state converts repeated range computation into O(1) algebra.
+
+- [ ] [[https://leetcode.com/problems/range-sum-query-immutable/description/][303. Range Sum Query - Immutable]] (Basic prefix construction)
+- [ ] [[https://leetcode.com/problems/find-pivot-index/description/][724. Find Pivot Index]] (Left/right partition equivalence)
+** TODO Phase 2 — Historical Prefix Matching [0/6]
+*Key Logic:* Learn how subarray problems become historical state lookup and frequency-matching problems.
+
+- [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Core prefix-difference lookup)
+- [ ] [[https://leetcode.com/problems/count-number-of-nice-subarrays/description/][1248. Count Number of Nice Subarrays]] (Odd-count prefix frequency)
+- [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Binary exact-sum counting)
+- [ ] [[https://leetcode.com/problems/contiguous-array/description/][525. Contiguous Array]] (Balance-state normalization)
+- [ ] [[https://leetcode.com/problems/continuous-subarray-sum/description/][523. Continuous Subarray Sum]] (Modulo-normalized prefix states)
+- [ ] [[https://leetcode.com/problems/subarray-sums-divisible-by-k/description/][974. Subarray Sums Divisible by K]] (Remainder equivalence classes)
+** TODO Phase 3 — Prefix Optimization & Dynamic Structures [0/3]
+*Key Logic:* Learn how historical prefixes can be preserved strategically for optimization and dynamic updates.
+
+- [ ] [[https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/][325. Maximum Size Subarray Sum Equals k]] (Earliest prefix preservation)
+- [ ] [[https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/][862. Shortest Subarray with Sum at Least K]] (Prefix + monotonic deque optimization)
+  - Note: negatives break prefix monotonicity; that is why the deque becomes necessary.
+- [ ] [[https://leetcode.com/problems/range-sum-query-mutable/description/][307. Range Sum Query - Mutable]] (Fenwick tree / dynamic prefix maintenance)
+** TODO Phase 4 — Multidimensional Prefix Compression [0/3]
+*Key Logic:* Extend prefix logic into matrix compression, inclusion-exclusion, and multidimensional matching.
+
+- [ ] [[https://leetcode.com/problems/range-sum-query-2d-immutable/description/][304. Range Sum Query 2D - Immutable]] (2D prefix construction)
+- [ ] [[https://leetcode.com/problems/matrix-block-sum/description/][1314. Matrix Block Sum]] (2D inclusion-exclusion mechanics)
+- [ ] [[https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/][1074. Number of Submatrices That Sum to Target]] (2D prefix + hashmap hybrid)
+** TODO Phase 5 — Boundary of the Technique [0/1]
+*Key Logic:* Learn where static historical accumulation fails and dynamic boundary repair becomes necessary.
+
+- [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Dynamic validity maintenance instead of historical accumulation)
+* Notes
+- Prefix sum is fundamentally a "historical state" technique. You continuously record the past and ask whether a previous state can make the current range valid.
+- Exact-count subarray problems are one of the strongest signals for prefix sum.
+- The biggest conceptual leap is realizing:
+  currentPrefix - target
+  represents a required historical state.
+- If negative numbers exist, sliding window should immediately become suspicious.
+- Problems 523 and 974 are usually where modulo-based prefix normalization fully clicks.
+- Problem 560 (Subarray Sum Equals K) is the foundational prefix hashmap problem for the entire topic.
+- Problem 862 is important because it demonstrates that prefix sums alone are sometimes insufficient; structural optimization may also be required.
+- Sliding window is the dynamic complement to static prefix accumulation.

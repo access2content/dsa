@@ -10,7 +10,7 @@
   - [[#debug-without-a-debugger][Debug Without a Debugger]]
   - [[#use-ai-effectively][Use AI effectively]]
   - [[#look-at-other-solution-after-solving][Look at other solution after solving]]
-- [[#phase-1---array-traversal--lookup-14][Phase 1 - Array Traversal & Lookup]]
+- [[#phase-1---array-traversal--lookup-24][Phase 1 - Array Traversal & Lookup]]
   - [[#1-two-pointers][1. Two Pointers]]
   - [[#2-sliding-window][2. Sliding Window]]
   - [[#3-prefix-sum][3. Prefix Sum]]
@@ -87,7 +87,7 @@ Instead of looking up the solution, write the minimal code, or pseudo code, or e
 The idea is to use AI as your teacher to find gaps in your own thinking and fill that gap. You aren't trying to memorize the answers. The goal here is to find gaps in your own mental capacity and fill those gaps.
 ** Look at other solution after solving
 Even if you solve a question, do look at other solutions in your language as well. The reason is that the same code can be structured many different ways. By looking at other solutions, you not only understand code structure, but maybe even variable names which will be helpful. The idea is simply to look at different ways of solving the same problem.
-* Phase 1 - Array Traversal & Lookup [1/4]
+* Phase 1 - Array Traversal & Lookup [2/4]
 ** DONE 1. Two Pointers
 CLOSED: [2026-05-10 Sun 16:41]
 [[[file:phase1/1.two-pointers/README.org][Mechanics]]] [[[file:phase1/1.two-pointers/PATTERNS.org][Patterns]]]
@@ -99,7 +99,8 @@ CLOSED: [2026-05-10 Sun 16:41]
 - Skip and Compare
 - Fast/slow pointers
 - Prefix/Suffix
-** TODO 2. Sliding Window
+** DONE 2. Sliding Window
+CLOSED: [2026-05-15 Fri 20:39]
 [[[file:phase1/2.sliding-window/README.org][Mechanics]]] [[[file:phase1/2.sliding-window/PATTERNS.org][Patterns]]]
 - Fixed Size Window
 - Expand & Shrink Window (Variable Size)
@@ -109,6 +110,7 @@ CLOSED: [2026-05-10 Sun 16:41]
 - Prefix Sum Boundary Problems
 - Circular / Wraparound Window
 ** TODO 3. Prefix Sum
+[[[file:phase1/3.prefix-sum/README.org][Mechanics]]] [[[file:phase1/3.prefix-sum/PATTERNS.org][Patterns]]]
 - Range queries
 - Running totals
 - Hashmap + prefix sum combinations

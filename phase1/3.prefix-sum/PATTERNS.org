@@ -1,0 +1,53 @@
+#+title: Prefix Sum Patterns
+
+* Table of Contents :toc:
+- [[#patterns-and-questions-0][Patterns and Questions]]
+  - [[#1-basic-prefix-construction-03][1. Basic Prefix Construction]]
+  - [[#2-historical-prefix-matching-06][2. Historical Prefix Matching]]
+  - [[#3-prefix-optimization--structural-evolution-03][3. Prefix Optimization & Structural Evolution]]
+  - [[#4-2d-prefix-sum-03][4. 2D Prefix Sum]]
+  - [[#5-prefix-sum-failure-cases-01][5. Prefix Sum Failure Cases]]
+- [[#notes][Notes]]
+
+* Patterns and Questions [0%]
+** TODO 1. Basic Prefix Construction [0/3]
+*Key Logic:* Precompute cumulative information once so future range queries become constant time.
+
+- [ ] [[https://leetcode.com/problems/running-sum-of-1d-array/description/][1480. Running Sum of 1d Array]] (Incremental accumulation)
+- [ ] [[https://leetcode.com/problems/range-sum-query-immutable/description/][303. Range Sum Query - Immutable]] (Classic prefix array)
+- [ ] [[https://leetcode.com/problems/find-pivot-index/description/][724. Find Pivot Index]] (Partition equilibrium)
+** TODO 2. Historical Prefix Matching [0/6]
+*Key Logic:* Transform subarray problems into historical prefix-state lookup and hashmap matching.
+
+- [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Target difference lookup)
+- [ ] [[https://leetcode.com/problems/count-number-of-nice-subarrays/description/][1248. Count Number of Nice Subarrays]] (Odd-count frequency matching)
+- [ ] [[https://leetcode.com/problems/binary-subarrays-with-sum/description/][930. Binary Subarrays With Sum]] (Binary exact-sum counting)
+- [ ] [[https://leetcode.com/problems/contiguous-array/description/][525. Contiguous Array]] (Balance-state normalization)
+- [ ] [[https://leetcode.com/problems/continuous-subarray-sum/description/][523. Continuous Subarray Sum]] (Modulo state reuse)
+- [ ] [[https://leetcode.com/problems/subarray-sums-divisible-by-k/description/][974. Subarray Sums Divisible by K]] (Equivalent remainder grouping)
+** TODO 3. Prefix Optimization & Structural Evolution [0/3]
+*Key Logic:* Preserve and organize historical prefix states to support optimization, non-monotonic behavior, and dynamic updates.
+
+- [ ] [[https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/][325. Maximum Size Subarray Sum Equals k]] (Longest valid distance)
+- [ ] [[https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/][862. Shortest Subarray with Sum at Least K]] (Monotonic optimization over prefixes)
+- [ ] [[https://leetcode.com/problems/range-sum-query-mutable/description/][307. Range Sum Query - Mutable]] (Fenwick tree evolution)
+** TODO 4. 2D Prefix Sum [0/3]
+*Key Logic:* Compress rectangular regions using multidimensional prefix accumulation and inclusion-exclusion.
+
+- [ ] [[https://leetcode.com/problems/range-sum-query-2d-immutable/description/][304. Range Sum Query 2D - Immutable]] (2D prefix construction)
+- [ ] [[https://leetcode.com/problems/matrix-block-sum/description/][1314. Matrix Block Sum]] (2D inclusion-exclusion)
+- [ ] [[https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/][1074. Number of Submatrices That Sum to Target]] (2D prefix + hashmap hybrid)
+** TODO 5. Prefix Sum Failure Cases [0/1]
+*Key Logic:* Learn where static historical accumulation fails and dynamic boundary maintenance becomes necessary.
+
+- [ ] [[https://leetcode.com/problems/longest-substring-without-repeating-characters/description/][3. Longest Substring Without Repeating Characters]] (Dynamic validity instead of historical accumulation)
+* Notes
+- Prefix sum patterns are usually hidden behind subarray language rather than explicit range-sum language.
+- Exact-count subarray problems are one of the strongest signals for prefix sum.
+- The biggest pattern leap is recognizing:
+  currentState - targetState
+  instead of trying to construct subarrays directly.
+- If negative numbers exist, sliding window should immediately become suspicious.
+- Problems 523 and 974 are usually where modulo-based prefix normalization fully clicks.
+- Problem 862 is important because negatives destroy monotonic behavior, requiring structural optimization beyond plain prefix sums.
+- Sliding window is the dynamic complement to static prefix accumulation.
