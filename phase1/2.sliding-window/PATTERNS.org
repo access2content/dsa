@@ -2,12 +2,12 @@
 
 * Table of Contents :toc:
 - [[#core-idea][Core Idea]]
-- [[#patterns-and-questions-25][Patterns and Questions]]
+- [[#patterns-and-questions-37][Patterns and Questions]]
   - [[#1-fixed-size-window-22][1. Fixed Size Window]]
   - [[#2-expand--shrink-window-variable-size-44][2. Expand & Shrink Window (Variable Size)]]
   - [[#3-window-counting-pattern-23][3. Window Counting Pattern]]
   - [[#4-frequency-map--multiset-window-13][4. Frequency Map / Multiset Window]]
-  - [[#5-monotonic-window-optimization-12][5. Monotonic Window Optimization]]
+  - [[#5-monotonic-window-optimization-22][5. Monotonic Window Optimization]]
   - [[#6-prefix-sum-boundary-problems-02][6. Prefix Sum Boundary Problems]]
   - [[#7-circular--wraparound-window-01][7. Circular / Wraparound Window]]
   - [[#8-final-boss-multiple-constraints--advanced-invariants-12][8. Final Boss (Multiple Constraints / Advanced Invariants)]]
@@ -27,7 +27,7 @@ The important realizations are:
 - State evolves incrementally
 - Boundaries encode logical validity
 - Pointer movement represents proof that discarded states are permanently irrelevant
-* Patterns and Questions [25%]
+* Patterns and Questions [37%]
 ** DONE 1. Fixed Size Window [2/2]
 CLOSED: [2026-05-11 Mon 17:37]
 *Key Logic:* Maintain a window of exact size `k` while updating state incrementally as elements enter and leave.
@@ -54,11 +54,12 @@ CLOSED: [2026-05-11 Mon 16:00]
 - [X] [[https://leetcode.com/problems/permutation-in-string/description/][567. Permutation in String]] [[[file:567-permutation-in-string.ts][TS]]] (Fixed-size frequency matching)
 - [ ] [[https://leetcode.com/problems/find-all-anagrams-in-a-string/description/][438. Find All Anagrams in a String]] (Sliding hashmap equality)
 - [ ] [[https://leetcode.com/problems/fruit-into-baskets/description/][904. Fruit Into Baskets]] (Distinct-count constraint window)
-** TODO 5. Monotonic Window Optimization [1/2]
+** DONE 5. Monotonic Window Optimization [2/2]
+CLOSED: [2026-05-15 Fri 15:46]
 *Key Logic:* Maintain candidates in monotonic order so invalid elements are discarded permanently.
 
 - [X] [[https://leetcode.com/problems/sliding-window-maximum/description/][239. Sliding Window Maximum]] [[[file:239-sliding-window-maximum.ts][TS]]] (Monotonic deque fundamentals)
-- [ ] [[https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/][1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit]] (Dual monotonic queues)
+- [X] [[https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/][1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit]] [[[file:1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.ts][TS]]] (Dual monotonic queues)
 ** TODO 6. Prefix Sum Boundary Problems [0/2]
 *Key Logic:* Combine running prefix information with window boundaries to optimize range calculations.
 
