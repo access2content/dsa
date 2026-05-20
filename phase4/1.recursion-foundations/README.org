@@ -1,13 +1,13 @@
 #+title: Recursion Foundations & DFS thinking
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-25][Mechanics and Questions]]
+- [[#mechanics-and-questions-50][Mechanics and Questions]]
   - [[#phase-1--recursive-state--stack-frames-33][Phase 1 — Recursive State & Stack Frames]]
-  - [[#phase-2--recursive-traversal--dfs-thinking-23][Phase 2 — Recursive Traversal & DFS Thinking]]
+  - [[#phase-2--recursive-traversal--dfs-thinking-33][Phase 2 — Recursive Traversal & DFS Thinking]]
   - [[#phase-3--recursive-tree-expansion-03][Phase 3 — Recursive Tree Expansion]]
   - [[#phase-4--recursive-search-space-traversal-03][Phase 4 — Recursive Search Space Traversal]]
 
-* Mechanics and Questions [25%]
+* Mechanics and Questions [50%]
 ** DONE Phase 1 — Recursive State & Stack Frames [3/3]
 CLOSED: [2026-05-20 Wed 21:27]
 Learn that recursion is simply solving the same problem on a smaller state.
@@ -26,7 +26,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/fibonacci-number/description/][509. Fibonacci Number]] [[[file:509-fibonacci-number.ts][TS]]] (Smallest possible recursive decomposition)
 - [X] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]] [[[file:206-reverse-linked-list.ts][TS]]] (Recursive state progression + reconstruction)
 - [X] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]] [[[file:24-swap-nodes-in-pairs.ts][TS]]] (Recursive reconstruction across multiple levels)
-** TODO Phase 2 — Recursive Traversal & DFS Thinking [2/3]
+** DONE Phase 2 — Recursive Traversal & DFS Thinking [3/3]
+CLOSED: [2026-05-20 Wed 21:59]
 Learn that recursion naturally traverses structures depth-first.
 DFS is not a separate algorithm here — it is recursive exploration.
 
@@ -38,7 +39,7 @@ Core mechanics:
 
 - [X] [[https://leetcode.com/problems/maximum-depth-of-binary-tree/description/][104. Maximum Depth of Binary Tree]] [[[file:104-maximum-depth-of-binary-tree.ts][TS]]] (Canonical DFS traversal)
 - [X] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]] [[[file:226-invert-binary-tree.ts][TS]]] (Recursive propagation through branches)
-- [ ] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]] (State propagation across recursive paths)
+- [X] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]] [TS] (State propagation across recursive paths)
 ** TODO Phase 3 — Recursive Tree Expansion [0/3]
 Learn that recursion creates an implicit branching tree of states.
 
