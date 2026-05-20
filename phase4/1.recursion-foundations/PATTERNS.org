@@ -1,15 +1,15 @@
 #+title: Recursion Foundations & DFS thinking Patterns
 
 * Table of Contents :toc:
-- [[#patterns-and-questions-50][Patterns and Questions]]
+- [[#patterns-and-questions-66][Patterns and Questions]]
   - [[#1-recursive-decomposition-pattern-22][1. Recursive Decomposition Pattern]]
   - [[#2-divide--combine-pattern-12][2. Divide & Combine Pattern]]
   - [[#3-recursive-traversal-pattern-dfs-traversal-22][3. Recursive Traversal Pattern (DFS Traversal)]]
-  - [[#4-path-accumulation-pattern-01][4. Path Accumulation Pattern]]
+  - [[#4-path-accumulation-pattern-11][4. Path Accumulation Pattern]]
   - [[#5-include--exclude-decision-tree-pattern-22][5. Include / Exclude Decision Tree Pattern]]
   - [[#6-implicit-graph-dfs-pattern-04][6. Implicit Graph DFS Pattern]]
 
-* Patterns and Questions [50%]
+* Patterns and Questions [66%]
 ** DONE 1. Recursive Decomposition Pattern [2/2]
 CLOSED: [2026-05-20 Wed 21:26]
 *Key Logic:* Solve the same problem on a smaller version of the input, then reconstruct the answer while returning upward through the stack.
@@ -27,10 +27,11 @@ CLOSED: [2026-05-20 Wed 21:58]
 
 - [X] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]] [[[file:226-invert-binary-tree.ts][TS]]]
 - [X] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]] [[[file:112-path-sum.ts][TS]]]
-** TODO 4. Path Accumulation Pattern [0/1]
+** DONE 4. Path Accumulation Pattern [1/1]
+CLOSED: [2026-05-21 Thu 00:28]
 *Key Logic:* Accumulate immutable path state independently across recursive branches.
 
-- [ ] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]]
+- [X] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]] [[[file:257-binary-tree-paths.ts][TS]]]
 ** DONE 5. Include / Exclude Decision Tree Pattern [2/2]
 CLOSED: [2026-05-21 Thu 00:04]
 *Key Logic:* Each recursive level branches into independent choices, forming an implicit decision tree.

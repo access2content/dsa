@@ -1,13 +1,13 @@
 #+title: Recursion Foundations & DFS thinking
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-50][Mechanics and Questions]]
+- [[#mechanics-and-questions-75][Mechanics and Questions]]
   - [[#phase-1--recursive-state--stack-frames-33][Phase 1 — Recursive State & Stack Frames]]
   - [[#phase-2--recursive-traversal--dfs-thinking-33][Phase 2 — Recursive Traversal & DFS Thinking]]
-  - [[#phase-3--recursive-tree-expansion-23][Phase 3 — Recursive Tree Expansion]]
+  - [[#phase-3--recursive-tree-expansion-33][Phase 3 — Recursive Tree Expansion]]
   - [[#phase-4--recursive-search-space-traversal-03][Phase 4 — Recursive Search Space Traversal]]
 
-* Mechanics and Questions [50%]
+* Mechanics and Questions [75%]
 ** DONE Phase 1 — Recursive State & Stack Frames [3/3]
 CLOSED: [2026-05-20 Wed 21:27]
 Learn that recursion is simply solving the same problem on a smaller state.
@@ -40,7 +40,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/maximum-depth-of-binary-tree/description/][104. Maximum Depth of Binary Tree]] [[[file:104-maximum-depth-of-binary-tree.ts][TS]]] (Canonical DFS traversal)
 - [X] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]] [[[file:226-invert-binary-tree.ts][TS]]] (Recursive propagation through branches)
 - [X] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]] [[[file:112-path-sum.ts][TS]]] (State propagation across recursive paths)
-** TODO Phase 3 — Recursive Tree Expansion [2/3]
+** DONE Phase 3 — Recursive Tree Expansion [3/3]
+CLOSED: [2026-05-21 Thu 00:27]
 Learn that recursion creates an implicit branching tree of states.
 
 Core mechanics:
@@ -51,7 +52,7 @@ Core mechanics:
 
 - [X] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]] [[[file:17-letter-combinations-of-a-phone-number.ts][TS]]] (Recursive branching expansion)
 - [X] [[https://leetcode.com/problems/letter-case-permutation/description/][784. Letter Case Permutation]] [[[file:784-letter-case-permutation.ts][TS]]] (Binary branching recursion)
-- [ ] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]] (Recursive path propagation)
+- [X] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]] [[[file:257-binary-tree-paths.ts][TS]]] (Recursive path propagation)
 ** TODO Phase 4 — Recursive Search Space Traversal [0/3]
 Learn that DFS systematically explores reachable state spaces.
 
