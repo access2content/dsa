@@ -1,7 +1,7 @@
 #+title: 2 Pointers Patterns
 
 * Table of Contents :toc:
-- [[#patterns-and-questions-77][Patterns and Questions]]
+- [[#patterns-and-questions-100][Patterns and Questions]]
   - [[#1-convering-pointers-opposite-ends-33][1. Convering Pointers (Opposite Ends)]]
   - [[#2-partitioning-pattern-readwrite-boundaries-33][2. Partitioning Pattern (Read/Write Boundaries)]]
   - [[#3-search-space-reduction-k-sum-11][3. Search Space Reduction (k-Sum)]]
@@ -11,7 +11,7 @@
   - [[#7-final-boss-global-boundary-invariants-11][7. Final Boss (Global Boundary Invariants)]]
 - [[#how-to-solve][How to solve]]
 
-* Patterns and Questions [7/7]
+* Patterns and Questions [100%]
 ** DONE 1. Convering Pointers (Opposite Ends) [3/3]
 CLOSED: [2026-05-10 Sun 16:39]
 *Key Logic:* Move inward from both ends based on sorted structure or bottleneck elimination.

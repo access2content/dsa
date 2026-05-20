@@ -1,0 +1,43 @@
+#+title: Recursion Foundations & DFS thinking Patterns
+
+* Table of Contents :toc:
+- [[#patterns-and-questions-0][Patterns and Questions]]
+  - [[#1-recursive-decomposition-pattern-02][1. Recursive Decomposition Pattern]]
+  - [[#2-divide--combine-pattern-02][2. Divide & Combine Pattern]]
+  - [[#3-recursive-traversal-pattern-dfs-traversal-02][3. Recursive Traversal Pattern (DFS Traversal)]]
+  - [[#4-path-accumulation-pattern-01][4. Path Accumulation Pattern]]
+  - [[#5-include--exclude-decision-tree-pattern-02][5. Include / Exclude Decision Tree Pattern]]
+  - [[#6-implicit-graph-dfs-pattern-04][6. Implicit Graph DFS Pattern]]
+
+* Patterns and Questions [0%]
+** TODO 1. Recursive Decomposition Pattern [0/2]
+*Key Logic:* Solve the same problem on a smaller version of the input, then reconstruct the answer while returning upward through the stack.
+
+- [ ] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]]
+- [ ] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]]
+** TODO 2. Divide & Combine Pattern [0/2]
+*Key Logic:* Divide the problem into independent recursive subproblems, then combine child results bottom-up while returning through the stack.
+
+- [ ] [[https://leetcode.com/problems/maximum-depth-of-binary-tree/description/][104. Maximum Depth of Binary Tree]]
+- [ ] [[https://leetcode.com/problems/balanced-binary-tree/description/][110. Balanced Binary Tree]]
+** TODO 3. Recursive Traversal Pattern (DFS Traversal) [0/2]
+*Key Logic:* Propagate state downward while recursively traversing deeper into the structure.
+
+- [ ] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]]
+- [ ] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]]
+** TODO 4. Path Accumulation Pattern [0/1]
+*Key Logic:* Accumulate immutable path state independently across recursive branches.
+
+- [ ] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]]
+** TODO 5. Include / Exclude Decision Tree Pattern [0/2]
+*Key Logic:* Each recursive level branches into independent choices, forming an implicit decision tree.
+
+- [ ] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]]
+- [ ] [[https://leetcode.com/problems/letter-case-permutation/description/][784. Letter Case Permutation]]
+** TODO 6. Implicit Graph DFS Pattern [0/4]
+*Key Logic:* Use DFS recursion to traverse implicitly connected state spaces like graphs and grids.
+
+- [ ] [[https://leetcode.com/problems/all-paths-from-source-to-target/description/][797. All Paths From Source to Target]]
+- [ ] [[https://leetcode.com/problems/flood-fill/description/][733. Flood Fill]]
+- [ ] [[https://leetcode.com/problems/number-of-islands/description/][200. Number of Islands]]
+- [ ] [[https://leetcode.com/problems/max-area-of-island/description/][695. Max Area of Island]]

@@ -21,30 +21,33 @@
   - [[#3-linked-list][3. Linked List]]
 - [[#phase-3---search-and-optimization][Phase 3 - Search and Optimization]]
   - [[#1-binary-search][1. Binary Search]]
-  - [[#2-greedy][2. Greedy]]
-  - [[#3-interval-problems][3. Interval Problems]]
-  - [[#4-monotonic-stack][4. Monotonic Stack]]
-- [[#phase-4---priority--recursive-thinking][Phase 4 - Priority & Recursive Thinking]]
-  - [[#heap-04][Heap]]
-  - [[#top-k-03][Top K]]
-  - [[#recursion-04][Recursion]]
-  - [[#backtracking-03][Backtracking]]
-- [[#phase-5---trees][Phase 5 - Trees]]
+  - [[#2-interval-problems][2. Interval Problems]]
+  - [[#3-monotonic-stack][3. Monotonic Stack]]
+- [[#phase-4---recursive-search--state-exploration-0][Phase 4 - Recursive Search & State Exploration]]
+  - [[#1-recursion-foundations--dfs-thinking][1. Recursion Foundations & DFS thinking]]
+  - [[#2-backtracking][2. Backtracking]]
+  - [[#3-combinatorial-search][3. Combinatorial Search]]
+  - [[#4-memoization][4. Memoization]]
+- [[#phase-5---priority-structures-and-greedy-algorithms][Phase 5 - Priority Structures and Greedy Algorithms]]
+  - [[#heap][Heap]]
+  - [[#top-k][Top K]]
+  - [[#greedy][Greedy]]
+- [[#phase-6---trees][Phase 6 - Trees]]
   - [[#binary-tree-fundamentals-04][Binary Tree Fundamentals]]
   - [[#tree-dfs-04][Tree DFS]]
   - [[#tree-bfs-03][Tree BFS]]
   - [[#trie-03][Trie]]
-- [[#phase-6---graphs][Phase 6 - Graphs]]
+- [[#phase-7---graphs][Phase 7 - Graphs]]
   - [[#graph-dfs-03][Graph DFS]]
   - [[#graph-bfs-02][Graph BFS]]
   - [[#matrix-problems-03][Matrix Problems]]
   - [[#topological-sort-03][Topological Sort]]
   - [[#union-find-03][Union Find]]
-- [[#phase-7---advanced-problem-solving][Phase 7 - Advanced Problem Solving]]
-- [[#phase-8---advanced-algorithms][Phase 8 - Advanced Algorithms]]
+- [[#phase-8---advanced-problem-solving][Phase 8 - Advanced Problem Solving]]
+- [[#phase-9---advanced-algorithms][Phase 9 - Advanced Algorithms]]
   - [[#bit-manipulation-04][Bit Manipulation]]
   - [[#algorithms-02][Algorithms]]
-- [[#phase-9---specialized--competitive-programming][Phase 9 - Specialized / Competitive Programming]]
+- [[#phase-10---specialized--competitive-programming][Phase 10 - Specialized / Competitive Programming]]
 - [[#notes][Notes]]
 
 * How to use this guide
@@ -142,40 +145,70 @@ CLOSED: [2026-05-15 Fri 20:39]
 - First/last occurrence
 - Search space reduction
 - Binary search on answer
-** 2. Greedy
-- Interval scheduling
-- Merging intervals
-- Optimal local decisions
-- Sorting-based greedy
-** 3. Interval Problems
+** 2. Interval Problems
 - Merge intervals
 - Meeting rooms
 - Sweep line intuition
-** 4. Monotonic Stack
+** 3. Monotonic Stack
 - Next greater element
 - Histogram
 - Daily temperatures
 - Trapping rain water
-* Phase 4 - Priority & Recursive Thinking
-** Heap [0/4]
-- [ ] Min heap
-- [ ] Max heap
-- [ ] Priority scheduling
-- [ ] Two heap patterns
-** Top K [0/3]
-- [ ] Heap-based selection
-- [ ] Streaming problems
-- [ ] Frequency ranking
-** Recursion [0/4]
-- [ ] Base cases
-- [ ] Recursive state
-- [ ] Divide and conquer
-- [ ] Tree-style thinking
-** Backtracking [0/3]
-- [ ] Decision trees
-- [ ] Constraint pruning
-- [ ] State undoing
-* Phase 5 - Trees
+* Phase 4 - Recursive Search & State Exploration [0%]
+** TODO 1. Recursion Foundations & DFS thinking
+[[[file:phase4/1.recursion-foundations/README.org][Mechanics]]] [[[file:phase4/1.recursion-foundations/PATTERNS.org][Patterns]]]
+- Base cases
+- Recursive state
+- Stack frames
+- Choice reduction
+- Divide and Conquer
+- Recursive tree visualization
+- Include/exclude recursion
+- Decision tree traversal
+- Exhaustive search
+- Path accumulation
+- State propagation
+- Implicit trees
+** TODO 2. Backtracking
+- Choose → Explore → Undo
+- State undoing
+- Constraint pruning
+- Candidate generation
+- Duplicate elimination
+- Feasibility checking
+- Early stopping
+** TODO 3. Combinatorial Search
+- Subsets
+- Permutations
+- Combination sum
+- Partitioning
+- Coin change search
+- Resource allocation
+- Bounded choices
+** TODO 4. Memoization
+- Top-down DP
+- Cache state
+- State compression intuition
+- Recursive optimization
+* Phase 5 - Priority Structures and Greedy Algorithms
+** Heap
+- Min heap
+- Max heap
+- Priority scheduling
+- Merge K structures
+- Running median
+- Lazy deletion intuition
+** Top K
+- Heap selection
+- Streaming problems
+- Frequency ranking
+- K-way merge
+** Greedy
+- Interval scheduling
+- Merging intervals
+- Optimal local decisions
+- Sorting-based greedy
+* Phase 6 - Trees
 ** Binary Tree Fundamentals [0/4]
 - [ ] Tree representation
 - [ ] Traversals
@@ -194,7 +227,7 @@ CLOSED: [2026-05-15 Fri 20:39]
 - [ ] autocomplete
 - [ ] prefix search
 - [ ] word search
-* Phase 6 - Graphs
+* Phase 7 - Graphs
 ** Graph DFS [0/3]
 - [ ] Visited tracking
 - [ ] Connected components
@@ -214,8 +247,7 @@ CLOSED: [2026-05-15 Fri 20:39]
 - [ ] Connected components
 - [ ] Dynamic connectivity
 - [ ] Cycle detection
-* Phase 7 - Advanced Problem Solving
-- [ ] Memoization
+* Phase 8 - Advanced Problem Solving
 - [ ] State definition
 - [ ] Transition relation
 - [ ] 1D DP
@@ -225,7 +257,7 @@ CLOSED: [2026-05-15 Fri 20:39]
 - [ ] Longest Increasing Subsequence (LIS)
 - [ ] Grid DP
 - [ ] Interval DP
-* Phase 8 - Advanced Algorithms
+* Phase 9 - Advanced Algorithms
 ** Bit Manipulation [0/4]
 - [ ] XOR tricks
 - [ ] bit masking
@@ -234,7 +266,7 @@ CLOSED: [2026-05-15 Fri 20:39]
 ** Algorithms [0/2]
 - [ ] Dijkstra
 - [ ] Minimum spanning tree
-* Phase 9 - Specialized / Competitive Programming
+* Phase 10 - Specialized / Competitive Programming
 - [ ] Segment Tree
 - [ ] Fenwick Tree
 - [ ] Floyd Warshall

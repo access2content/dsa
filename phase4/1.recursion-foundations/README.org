@@ -1,0 +1,64 @@
+#+title: Recursion Foundations & DFS thinking
+
+* Table of Contents :toc:
+- [[#mechanics-and-questions-0][Mechanics and Questions]]
+  - [[#phase-1--recursive-state--stack-frames-03][Phase 1 — Recursive State & Stack Frames]]
+  - [[#phase-2--recursive-traversal--dfs-thinking-04][Phase 2 — Recursive Traversal & DFS Thinking]]
+  - [[#phase-3--recursive-tree-expansion-03][Phase 3 — Recursive Tree Expansion]]
+  - [[#phase-4--recursive-search-space-traversal-03][Phase 4 — Recursive Search Space Traversal]]
+
+* Mechanics and Questions [0%]
+** TODO Phase 1 — Recursive State & Stack Frames [0/3]
+Learn that recursion is simply solving the same problem on a smaller state.
+Focus on:
+- Base cases
+- Recursive reduction
+- Call stack behavior
+- Returning state upward
+
+Core mechanics:
+- Shrinking the problem
+- Understanding stack frames
+- Recursive reconstruction
+- Recursive return flow
+
+- [ ] [[https://leetcode.com/problems/fibonacci-number/description/][509. Fibonacci Number]] (Smallest possible recursive decomposition)
+- [ ] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]] (Recursive state progression + reconstruction)
+- [ ] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]] (Recursive reconstruction across multiple levels)
+** TODO Phase 2 — Recursive Traversal & DFS Thinking [0/4]
+Learn that recursion naturally traverses structures depth-first.
+DFS is not a separate algorithm here — it is recursive exploration.
+
+Core mechanics:
+- Depth-first traversal
+- Recursive propagation
+- Traversing implicit structure
+- Parent → child state flow
+
+- [ ] [[https://leetcode.com/problems/maximum-depth-of-binary-tree/description/][104. Maximum Depth of Binary Tree]] (Canonical DFS traversal)
+- [ ] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]] (Recursive propagation through branches)
+- [ ] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]] (State propagation across recursive paths)
+** TODO Phase 3 — Recursive Tree Expansion [0/3]
+Learn that recursion creates an implicit branching tree of states.
+
+Core mechanics:
+- Recursive branching
+- DFS expansion
+- State isolation per stack frame
+- Implicit recursive trees
+
+- [ ] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]] (Recursive branching expansion)
+- [ ] [[https://leetcode.com/problems/letter-case-permutation/description/][784. Letter Case Permutation]] (Binary branching recursion)
+- [ ] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]] (Recursive path propagation)
+** TODO Phase 4 — Recursive Search Space Traversal [0/3]
+Learn that DFS systematically explores reachable state spaces.
+
+Core mechanics:
+- Reachability traversal
+- DFS graph exploration
+- Early termination
+- Recursive search propagation
+
+- [ ] [[https://leetcode.com/problems/flood-fill/description/][733. Flood Fill]] (DFS traversal on implicit graphs)
+- [ ] [[https://leetcode.com/problems/all-paths-from-source-to-target/description/][797. All Paths From Source to Target]] (Systematic DFS exploration)
+- [ ] [[https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/][1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree]] (Recursive search with early termination)
