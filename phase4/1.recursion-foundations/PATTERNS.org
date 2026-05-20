@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#patterns-and-questions-0][Patterns and Questions]]
-  - [[#1-recursive-decomposition-pattern-02][1. Recursive Decomposition Pattern]]
+  - [[#1-recursive-decomposition-pattern-12][1. Recursive Decomposition Pattern]]
   - [[#2-divide--combine-pattern-02][2. Divide & Combine Pattern]]
   - [[#3-recursive-traversal-pattern-dfs-traversal-02][3. Recursive Traversal Pattern (DFS Traversal)]]
   - [[#4-path-accumulation-pattern-01][4. Path Accumulation Pattern]]
@@ -10,10 +10,10 @@
   - [[#6-implicit-graph-dfs-pattern-04][6. Implicit Graph DFS Pattern]]
 
 * Patterns and Questions [0%]
-** TODO 1. Recursive Decomposition Pattern [0/2]
+** TODO 1. Recursive Decomposition Pattern [1/2]
 *Key Logic:* Solve the same problem on a smaller version of the input, then reconstruct the answer while returning upward through the stack.
 
-- [ ] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]]
+- [X] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]] [[[file:206-reverse-linked-list.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]]
 ** TODO 2. Divide & Combine Pattern [0/2]
 *Key Logic:* Divide the problem into independent recursive subproblems, then combine child results bottom-up while returning through the stack.
