@@ -1,14 +1,15 @@
 #+title: Recursion Foundations & DFS thinking
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-0][Mechanics and Questions]]
-  - [[#phase-1--recursive-state--stack-frames-23][Phase 1 — Recursive State & Stack Frames]]
+- [[#mechanics-and-questions-25][Mechanics and Questions]]
+  - [[#phase-1--recursive-state--stack-frames-33][Phase 1 — Recursive State & Stack Frames]]
   - [[#phase-2--recursive-traversal--dfs-thinking-04][Phase 2 — Recursive Traversal & DFS Thinking]]
   - [[#phase-3--recursive-tree-expansion-03][Phase 3 — Recursive Tree Expansion]]
   - [[#phase-4--recursive-search-space-traversal-03][Phase 4 — Recursive Search Space Traversal]]
 
-* Mechanics and Questions [0%]
-** TODO Phase 1 — Recursive State & Stack Frames [2/3]
+* Mechanics and Questions [25%]
+** DONE Phase 1 — Recursive State & Stack Frames [3/3]
+CLOSED: [2026-05-20 Wed 21:27]
 Learn that recursion is simply solving the same problem on a smaller state.
 Focus on:
 - Base cases
@@ -24,7 +25,7 @@ Core mechanics:
 
 - [X] [[https://leetcode.com/problems/fibonacci-number/description/][509. Fibonacci Number]] [[[file:509-fibonacci-number.ts][TS]]] (Smallest possible recursive decomposition)
 - [X] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]] [[[file:206-reverse-linked-list.ts][TS]]] (Recursive state progression + reconstruction)
-- [ ] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]] (Recursive reconstruction across multiple levels)
+- [X] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]] [[[file:24-swap-nodes-in-pairs.ts][TS]]] (Recursive reconstruction across multiple levels)
 ** TODO Phase 2 — Recursive Traversal & DFS Thinking [0/4]
 Learn that recursion naturally traverses structures depth-first.
 DFS is not a separate algorithm here — it is recursive exploration.

@@ -1,20 +1,21 @@
 #+title: Recursion Foundations & DFS thinking Patterns
 
 * Table of Contents :toc:
-- [[#patterns-and-questions-0][Patterns and Questions]]
-  - [[#1-recursive-decomposition-pattern-12][1. Recursive Decomposition Pattern]]
+- [[#patterns-and-questions-16][Patterns and Questions]]
+  - [[#1-recursive-decomposition-pattern-22][1. Recursive Decomposition Pattern]]
   - [[#2-divide--combine-pattern-02][2. Divide & Combine Pattern]]
   - [[#3-recursive-traversal-pattern-dfs-traversal-02][3. Recursive Traversal Pattern (DFS Traversal)]]
   - [[#4-path-accumulation-pattern-01][4. Path Accumulation Pattern]]
   - [[#5-include--exclude-decision-tree-pattern-02][5. Include / Exclude Decision Tree Pattern]]
   - [[#6-implicit-graph-dfs-pattern-04][6. Implicit Graph DFS Pattern]]
 
-* Patterns and Questions [0%]
-** TODO 1. Recursive Decomposition Pattern [1/2]
+* Patterns and Questions [16%]
+** DONE 1. Recursive Decomposition Pattern [2/2]
+CLOSED: [2026-05-20 Wed 21:26]
 *Key Logic:* Solve the same problem on a smaller version of the input, then reconstruct the answer while returning upward through the stack.
 
 - [X] [[https://leetcode.com/problems/reverse-linked-list/description/][206. Reverse Linked List]] [[[file:206-reverse-linked-list.ts][TS]]]
-- [ ] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]]
+- [X] [[https://leetcode.com/problems/swap-nodes-in-pairs/description/][24. Swap Nodes in Pairs]] [[[file:24-swap-nodes-in-pairs.ts][TS]]]
 ** TODO 2. Divide & Combine Pattern [0/2]
 *Key Logic:* Divide the problem into independent recursive subproblems, then combine child results bottom-up while returning through the stack.
 
