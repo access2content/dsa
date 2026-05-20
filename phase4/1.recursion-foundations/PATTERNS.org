@@ -4,7 +4,7 @@
 - [[#patterns-and-questions-16][Patterns and Questions]]
   - [[#1-recursive-decomposition-pattern-22][1. Recursive Decomposition Pattern]]
   - [[#2-divide--combine-pattern-12][2. Divide & Combine Pattern]]
-  - [[#3-recursive-traversal-pattern-dfs-traversal-02][3. Recursive Traversal Pattern (DFS Traversal)]]
+  - [[#3-recursive-traversal-pattern-dfs-traversal-12][3. Recursive Traversal Pattern (DFS Traversal)]]
   - [[#4-path-accumulation-pattern-01][4. Path Accumulation Pattern]]
   - [[#5-include--exclude-decision-tree-pattern-02][5. Include / Exclude Decision Tree Pattern]]
   - [[#6-implicit-graph-dfs-pattern-04][6. Implicit Graph DFS Pattern]]
@@ -21,10 +21,10 @@ CLOSED: [2026-05-20 Wed 21:26]
 
 - [X] [[https://leetcode.com/problems/maximum-depth-of-binary-tree/description/][104. Maximum Depth of Binary Tree]] [[[file:104-maximum-depth-of-binary-tree.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/balanced-binary-tree/description/][110. Balanced Binary Tree]]
-** TODO 3. Recursive Traversal Pattern (DFS Traversal) [0/2]
+** TODO 3. Recursive Traversal Pattern (DFS Traversal) [1/2]
 *Key Logic:* Propagate state downward while recursively traversing deeper into the structure.
 
-- [ ] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]]
+- [X] [[https://leetcode.com/problems/invert-binary-tree/description/][226. Invert Binary Tree]] [[[file:226-invert-binary-tree.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/path-sum/description/][112. Path Sum]]
 ** TODO 4. Path Accumulation Pattern [0/1]
 *Key Logic:* Accumulate immutable path state independently across recursive branches.
