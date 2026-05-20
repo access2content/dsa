@@ -6,7 +6,7 @@
   - [[#2-divide--combine-pattern-12][2. Divide & Combine Pattern]]
   - [[#3-recursive-traversal-pattern-dfs-traversal-22][3. Recursive Traversal Pattern (DFS Traversal)]]
   - [[#4-path-accumulation-pattern-01][4. Path Accumulation Pattern]]
-  - [[#5-include--exclude-decision-tree-pattern-02][5. Include / Exclude Decision Tree Pattern]]
+  - [[#5-include--exclude-decision-tree-pattern-12][5. Include / Exclude Decision Tree Pattern]]
   - [[#6-implicit-graph-dfs-pattern-04][6. Implicit Graph DFS Pattern]]
 
 * Patterns and Questions [33%]
@@ -31,10 +31,10 @@ CLOSED: [2026-05-20 Wed 21:58]
 *Key Logic:* Accumulate immutable path state independently across recursive branches.
 
 - [ ] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]]
-** TODO 5. Include / Exclude Decision Tree Pattern [0/2]
+** TODO 5. Include / Exclude Decision Tree Pattern [1/2]
 *Key Logic:* Each recursive level branches into independent choices, forming an implicit decision tree.
 
-- [ ] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]]
+- [X] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]] [[[file:17-letter-combinations-of-a-phone-number.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/letter-case-permutation/description/][784. Letter Case Permutation]]
 ** TODO 6. Implicit Graph DFS Pattern [0/4]
 *Key Logic:* Use DFS recursion to traverse implicitly connected state spaces like graphs and grids.
