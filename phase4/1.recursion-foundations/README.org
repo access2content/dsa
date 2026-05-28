@@ -5,7 +5,7 @@
   - [[#phase-1--recursive-state--stack-frames-33][Phase 1 — Recursive State & Stack Frames]]
   - [[#phase-2--recursive-traversal--dfs-thinking-33][Phase 2 — Recursive Traversal & DFS Thinking]]
   - [[#phase-3--recursive-tree-expansion-33][Phase 3 — Recursive Tree Expansion]]
-  - [[#phase-4--recursive-search-space-traversal-03][Phase 4 — Recursive Search Space Traversal]]
+  - [[#phase-4--recursive-search-space-traversal-13][Phase 4 — Recursive Search Space Traversal]]
 
 * Mechanics and Questions [75%]
 ** DONE Phase 1 — Recursive State & Stack Frames [3/3]
@@ -53,7 +53,7 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]] [[[file:17-letter-combinations-of-a-phone-number.ts][TS]]] (Recursive branching expansion)
 - [X] [[https://leetcode.com/problems/letter-case-permutation/description/][784. Letter Case Permutation]] [[[file:784-letter-case-permutation.ts][TS]]] (Binary branching recursion)
 - [X] [[https://leetcode.com/problems/binary-tree-paths/description/][257. Binary Tree Paths]] [[[file:257-binary-tree-paths.ts][TS]]] (Recursive path propagation)
-** TODO Phase 4 — Recursive Search Space Traversal [0/3]
+** TODO Phase 4 — Recursive Search Space Traversal [1/3]
 Learn that DFS systematically explores reachable state spaces.
 
 Core mechanics:
@@ -62,6 +62,6 @@ Core mechanics:
 - Early termination
 - Recursive search propagation
 
-- [ ] [[https://leetcode.com/problems/flood-fill/description/][733. Flood Fill]] (DFS traversal on implicit graphs)
+- [X] [[https://leetcode.com/problems/flood-fill/description/][733. Flood Fill]] [[[file:733-flood-fill.ts][TS]]] (DFS traversal on implicit graphs)
 - [ ] [[https://leetcode.com/problems/all-paths-from-source-to-target/description/][797. All Paths From Source to Target]] (Systematic DFS exploration)
 - [ ] [[https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/][1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree]] (Recursive search with early termination)
