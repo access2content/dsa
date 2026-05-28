@@ -7,7 +7,7 @@
   - [[#3-recursive-traversal-pattern-dfs-traversal-22][3. Recursive Traversal Pattern (DFS Traversal)]]
   - [[#4-path-accumulation-pattern-11][4. Path Accumulation Pattern]]
   - [[#5-include--exclude-decision-tree-pattern-22][5. Include / Exclude Decision Tree Pattern]]
-  - [[#6-implicit-graph-dfs-pattern-14][6. Implicit Graph DFS Pattern]]
+  - [[#6-implicit-graph-dfs-pattern-24][6. Implicit Graph DFS Pattern]]
 
 * Patterns and Questions [66%]
 ** DONE 1. Recursive Decomposition Pattern [2/2]
@@ -38,10 +38,10 @@ CLOSED: [2026-05-21 Thu 00:04]
 
 - [X] [[https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/][17. Letter Combinations of a Phone Number]] [[[file:17-letter-combinations-of-a-phone-number.ts][TS]]]
 - [X] [[https://leetcode.com/problems/letter-case-permutation/description/][784. Letter Case Permutation]] [[[file:784-letter-case-permutation.ts][TS]]]
-** TODO 6. Implicit Graph DFS Pattern [1/4]
+** TODO 6. Implicit Graph DFS Pattern [2/4]
 *Key Logic:* Use DFS recursion to traverse implicitly connected state spaces like graphs and grids.
 
-- [ ] [[https://leetcode.com/problems/all-paths-from-source-to-target/description/][797. All Paths From Source to Target]]
+- [X] [[https://leetcode.com/problems/all-paths-from-source-to-target/description/][797. All Paths From Source to Target]] [[[file:797-all-paths-from-source-to-target.ts][TS]]]
 - [X] [[https://leetcode.com/problems/flood-fill/description/][733. Flood Fill]] [[[file:733-flood-fill.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/number-of-islands/description/][200. Number of Islands]]
 - [ ] [[https://leetcode.com/problems/max-area-of-island/description/][695. Max Area of Island]]
