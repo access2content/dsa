@@ -5,7 +5,7 @@
   - [[#1-dfs-traversal-pattern-reachability--components-25][1. DFS Traversal Pattern (Reachability & Components)]]
   - [[#2-bfs-expansion-pattern-shortest-reachability-05][2. BFS Expansion Pattern (Shortest Reachability)]]
   - [[#3-graph-state-modeling-pattern-expanded-traversal-state-04][3. Graph State Modeling Pattern (Expanded Traversal State)]]
-  - [[#4-dependency--cycle-pattern-graph-structure-validation-04][4. Dependency & Cycle Pattern (Graph Structure Validation)]]
+  - [[#4-dependency--cycle-pattern-graph-structure-validation-14][4. Dependency & Cycle Pattern (Graph Structure Validation)]]
   - [[#5-connectivity-compression-pattern-union-find-03][5. Connectivity Compression Pattern (Union Find)]]
 
 * Graph Patterns and Questions [0%]
@@ -32,12 +32,12 @@
 - [ ] [[https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/][1293. Shortest Path in a Grid with Obstacles Elimination]]
 - [ ] [[https://leetcode.com/problems/path-with-minimum-effort/description/][1631. Path With Minimum Effort]]
 - [ ] [[https://leetcode.com/problems/swim-in-rising-water/description/][778. Swim in Rising Water]]
-** TODO 4. Dependency & Cycle Pattern (Graph Structure Validation) [0/4]
+** TODO 4. Dependency & Cycle Pattern (Graph Structure Validation) [1/4]
 *Key Logic:* Validate traversal safety and dependency ordering using graph structure constraints.
 
 - [ ] [[https://leetcode.com/problems/course-schedule/description/][207. Course Schedule]]
 - [ ] [[https://leetcode.com/problems/course-schedule-ii/description/][210. Course Schedule II]]
-- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]]
+- [X] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]] [[[file:547-number-of-provinces.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/redundant-connection/description/][684. Redundant Connection]]
 ** TODO 5. Connectivity Compression Pattern (Union Find) [0/3]
 *Key Logic:* Maintain dynamic graph connectivity through component merging and parent compression.
