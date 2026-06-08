@@ -22,7 +22,7 @@
 
 - [ ] [[https://leetcode.com/problems/binary-tree-level-order-traversal/description/][102. Binary Tree Level Order Traversal]]
 - [ ] [[https://leetcode.com/problems/rotting-oranges/description/][994. Rotting Oranges]]
-- [ ] [[https://leetcode.com/problems/walls-and-gates/description/][286. Walls and Gates]]
+- [ ] [[https://leetcode.com/problems/01-matrix/description/][542. 01 Matrix]]
 - [ ] [[https://leetcode.com/problems/shortest-path-in-binary-matrix/description/][1091. Shortest Path in Binary Matrix]]
 - [ ] [[https://leetcode.com/problems/word-ladder/description/][127. Word Ladder]]
 ** TODO 3. Graph State Modeling Pattern (Expanded Traversal State) [0/4]
@@ -37,7 +37,7 @@
 
 - [ ] [[https://leetcode.com/problems/course-schedule/description/][207. Course Schedule]]
 - [ ] [[https://leetcode.com/problems/course-schedule-ii/description/][210. Course Schedule II]]
-- [ ] [[https://leetcode.com/problems/graph-valid-tree/description/][261. Graph Valid Tree]]
+- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]]
 - [ ] [[https://leetcode.com/problems/redundant-connection/description/][684. Redundant Connection]]
 ** TODO 5. Connectivity Compression Pattern (Union Find) [0/3]
 *Key Logic:* Maintain dynamic graph connectivity through component merging and parent compression.

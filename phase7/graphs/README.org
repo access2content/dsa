@@ -27,7 +27,7 @@ Core mechanics:
 
 - [X] [[https://leetcode.com/problems/find-if-path-exists-in-graph/description/][1971. Find if Path Exists in Graph]] [[[file:1971-find-if-path-exists-in-graph.ts][TS]]] (Basic reachability traversal)
 - [X] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]] [[[file:841-keys-and-rooms.ts][TS]]] (Canonical DFS traversal)
-- [ ] [[https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/][323. Number of Connected Components in an Undirected Graph]] (Connected region discovery)
+- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]] (Connected component discovery)
 - [ ] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]] (Traversal with reconstruction)
 ** TODO Phase 2 — BFS Layer Expansion & Shortest Reachability [0/4]
 Learn that BFS expands outward layer-by-layer from reachable states.
@@ -47,7 +47,7 @@ Core mechanics:
 - [ ] [[https://leetcode.com/problems/binary-tree-level-order-traversal/description/][102. Binary Tree Level Order Traversal]] (Canonical BFS layering)
 - [ ] [[https://leetcode.com/problems/rotting-oranges/description/][994. Rotting Oranges]] (Multi-source BFS)
 - [ ] [[https://leetcode.com/problems/word-ladder/description/][127. Word Ladder]] (Shortest path in unweighted graphs)
-- [ ] [[https://leetcode.com/problems/walls-and-gates/description/][286. Walls and Gates]] (Distance propagation on grids)
+- [ ] [[https://leetcode.com/problems/01-matrix/description/][542. 01 Matrix]] (Distance propagation via multi-source BFS)
 ** TODO Phase 3 — Matrix Traversal & Expanded Graph States [0/5]
 Learn that matrices are implicit graphs and traversal state may contain additional dimensions.
 
@@ -102,7 +102,7 @@ Core mechanics:
 - Connectivity merging
 - Structural cycle validation
 
-- [ ] [[https://leetcode.com/problems/graph-valid-tree/description/][261. Graph Valid Tree]] (Tree validation mechanics)
 - [ ] [[https://leetcode.com/problems/redundant-connection/description/][684. Redundant Connection]] (Cycle detection via Union Find)
-- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]] (Connectivity compression)
+- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]] (Connectivity grouping)
 - [ ] [[https://leetcode.com/problems/accounts-merge/description/][721. Accounts Merge]] (Dynamic component merging)
+- [ ] [[https://leetcode.com/problems/satisfiability-of-equality-equations/description/][990. Satisfiability of Equality Equations]] (Union Find validation)
