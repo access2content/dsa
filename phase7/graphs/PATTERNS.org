@@ -2,18 +2,18 @@
 
 * Table of Contents :toc:
 - [[#graph-patterns-and-questions-0][Graph Patterns and Questions]]
-  - [[#1-dfs-traversal-pattern-reachability--components-15][1. DFS Traversal Pattern (Reachability & Components)]]
+  - [[#1-dfs-traversal-pattern-reachability--components-25][1. DFS Traversal Pattern (Reachability & Components)]]
   - [[#2-bfs-expansion-pattern-shortest-reachability-05][2. BFS Expansion Pattern (Shortest Reachability)]]
   - [[#3-graph-state-modeling-pattern-expanded-traversal-state-04][3. Graph State Modeling Pattern (Expanded Traversal State)]]
   - [[#4-dependency--cycle-pattern-graph-structure-validation-04][4. Dependency & Cycle Pattern (Graph Structure Validation)]]
   - [[#5-connectivity-compression-pattern-union-find-03][5. Connectivity Compression Pattern (Union Find)]]
 
 * Graph Patterns and Questions [0%]
-** TODO 1. DFS Traversal Pattern (Reachability & Components) [1/5]
+** TODO 1. DFS Traversal Pattern (Reachability & Components) [2/5]
 *Key Logic:* Explore all reachable states depth-first while preventing revisits.
 
 - [X] [[https://leetcode.com/problems/find-if-path-exists-in-graph/description/][1971. Find if Path Exists in Graph]] [[[file:1971-find-if-path-exists-in-graph.ts][TS]]]
-- [ ] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]]
+- [X] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]] [[[file:841-keys-and-rooms.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/number-of-islands/description/][200. Number of Islands]]
 - [ ] [[https://leetcode.com/problems/max-area-of-island/description/][695. Max Area of Island]]
 - [ ] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]]

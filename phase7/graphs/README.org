@@ -2,14 +2,14 @@
 
 * Table of Contents :toc:
 - [[#graphs--state-traversal-mechanics-0][Graphs & State Traversal Mechanics]]
-  - [[#phase-1--graph-representation--dfs-reachability-14][Phase 1 — Graph Representation & DFS Reachability]]
+  - [[#phase-1--graph-representation--dfs-reachability-24][Phase 1 — Graph Representation & DFS Reachability]]
   - [[#phase-2--bfs-layer-expansion--shortest-reachability-04][Phase 2 — BFS Layer Expansion & Shortest Reachability]]
   - [[#phase-3--matrix-traversal--expanded-graph-states-05][Phase 3 — Matrix Traversal & Expanded Graph States]]
   - [[#phase-4--weighted-expansion--dependency-ordering-04][Phase 4 — Weighted Expansion & Dependency Ordering]]
   - [[#phase-5--connectivity-compression--graph-structure-validation-04][Phase 5 — Connectivity Compression & Graph Structure Validation]]
 
 * Graphs & State Traversal Mechanics [0%]
-** TODO Phase 1 — Graph Representation & DFS Reachability [1/4]
+** TODO Phase 1 — Graph Representation & DFS Reachability [2/4]
 Learn that graphs represent reachable connected states.
 DFS recursively explores reachable state spaces depth-first.
 
@@ -26,7 +26,7 @@ Core mechanics:
 - Traversal safety
 
 - [X] [[https://leetcode.com/problems/find-if-path-exists-in-graph/description/][1971. Find if Path Exists in Graph]] [[[file:1971-find-if-path-exists-in-graph.ts][TS]]] (Basic reachability traversal)
-- [ ] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]] (Canonical DFS traversal)
+- [X] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]] [[[file:841-keys-and-rooms.ts][TS]]] (Canonical DFS traversal)
 - [ ] [[https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/][323. Number of Connected Components in an Undirected Graph]] (Connected region discovery)
 - [ ] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]] (Traversal with reconstruction)
 ** TODO Phase 2 — BFS Layer Expansion & Shortest Reachability [0/4]
