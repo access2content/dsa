@@ -3,7 +3,7 @@
 * Table of Contents :toc:
 - [[#graph-patterns-and-questions-0][Graph Patterns and Questions]]
   - [[#1-dfs-traversal-pattern-reachability--components-35][1. DFS Traversal Pattern (Reachability & Components)]]
-  - [[#2-bfs-expansion-pattern-shortest-reachability-35][2. BFS Expansion Pattern (Shortest Reachability)]]
+  - [[#2-bfs-expansion-pattern-shortest-reachability-45][2. BFS Expansion Pattern (Shortest Reachability)]]
   - [[#3-graph-state-modeling-pattern-expanded-traversal-state-04][3. Graph State Modeling Pattern (Expanded Traversal State)]]
   - [[#4-dependency--cycle-pattern-graph-structure-validation-14][4. Dependency & Cycle Pattern (Graph Structure Validation)]]
   - [[#5-connectivity-compression-pattern-union-find-03][5. Connectivity Compression Pattern (Union Find)]]
@@ -17,12 +17,12 @@
 - [ ] [[https://leetcode.com/problems/number-of-islands/description/][200. Number of Islands]]
 - [ ] [[https://leetcode.com/problems/max-area-of-island/description/][695. Max Area of Island]]
 - [X] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]] [[[file:133-clone-graph.ts][TS]]]
-** TODO 2. BFS Expansion Pattern (Shortest Reachability) [3/5]
+** TODO 2. BFS Expansion Pattern (Shortest Reachability) [4/5]
 *Key Logic:* Expand outward level-by-level to discover minimum-step reachability.
 
 - [X] [[https://leetcode.com/problems/binary-tree-level-order-traversal/description/][102. Binary Tree Level Order Traversal]] [[[file:102-binary-tree-level-order-traversal.ts][TS]]]
 - [X] [[https://leetcode.com/problems/rotting-oranges/description/][994. Rotting Oranges]] [[[file:994-rotting-oranges.ts][TS]]]
-- [ ] [[https://leetcode.com/problems/01-matrix/description/][542. 01 Matrix]]
+- [X] [[https://leetcode.com/problems/01-matrix/description/][542. 01 Matrix]] [[[file:542-01-matrix.ts][TS]]]
 - [ ] [[https://leetcode.com/problems/shortest-path-in-binary-matrix/description/][1091. Shortest Path in Binary Matrix]]
 - [X] [[https://leetcode.com/problems/word-ladder/description/][127. Word Ladder]] [[[file:127-word-ladder.ts][TS]]]
 ** TODO 3. Graph State Modeling Pattern (Expanded Traversal State) [0/4]

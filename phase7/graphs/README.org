@@ -1,14 +1,14 @@
 #+title: Graph Mechanics
 
 * Table of Contents :toc:
-- [[#graphs--state-traversal-mechanics-20][Graphs & State Traversal Mechanics]]
+- [[#graphs--state-traversal-mechanics-40][Graphs & State Traversal Mechanics]]
   - [[#phase-1--graph-representation--dfs-reachability-44][Phase 1 — Graph Representation & DFS Reachability]]
-  - [[#phase-2--bfs-layer-expansion--shortest-reachability-34][Phase 2 — BFS Layer Expansion & Shortest Reachability]]
+  - [[#phase-2--bfs-layer-expansion--shortest-reachability-44][Phase 2 — BFS Layer Expansion & Shortest Reachability]]
   - [[#phase-3--matrix-traversal--expanded-graph-states-05][Phase 3 — Matrix Traversal & Expanded Graph States]]
   - [[#phase-4--weighted-expansion--dependency-ordering-04][Phase 4 — Weighted Expansion & Dependency Ordering]]
   - [[#phase-5--connectivity-compression--graph-structure-validation-04][Phase 5 — Connectivity Compression & Graph Structure Validation]]
 
-* Graphs & State Traversal Mechanics [20%]
+* Graphs & State Traversal Mechanics [40%]
 ** DONE Phase 1 — Graph Representation & DFS Reachability [4/4]
 CLOSED: [2026-06-08 Mon 17:26]
 Learn that graphs represent reachable connected states.
@@ -30,7 +30,8 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]] [[[file:841-keys-and-rooms.ts][TS]]] (Canonical DFS traversal)
 - [X] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]] [[[file:547-number-of-provinces.ts][TS]]] (Connected component discovery)
 - [X] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]] [[[file:133-clone-graph.ts][TS]]] (Traversal with reconstruction)
-** TODO Phase 2 — BFS Layer Expansion & Shortest Reachability [3/4]
+** DONE Phase 2 — BFS Layer Expansion & Shortest Reachability [4/4]
+CLOSED: [2026-06-08 Mon 21:58]
 Learn that BFS expands outward layer-by-layer from reachable states.
 
 Focus on:
@@ -48,7 +49,7 @@ Core mechanics:
 - [X] [[https://leetcode.com/problems/binary-tree-level-order-traversal/description/][102. Binary Tree Level Order Traversal]] [[[file:102-binary-tree-level-order-traversal.ts][TS]]] (Canonical BFS layering)
 - [X] [[https://leetcode.com/problems/rotting-oranges/description/][994. Rotting Oranges]] [[[file:994-rotting-oranges.ts][TS]]] (Multi-source BFS)
 - [X] [[https://leetcode.com/problems/word-ladder/description/][127. Word Ladder]] [[[file:127-word-ladder.ts][TS]]] (Shortest path in unweighted graphs)
-- [ ] [[https://leetcode.com/problems/01-matrix/description/][542. 01 Matrix]] (Distance propagation via multi-source BFS)
+- [X] [[https://leetcode.com/problems/01-matrix/description/][542. 01 Matrix]] [[[file:542-01-matrix.ts][TS]]] (Distance propagation via multi-source BFS)
 ** TODO Phase 3 — Matrix Traversal & Expanded Graph States [0/5]
 Learn that matrices are implicit graphs and traversal state may contain additional dimensions.
 

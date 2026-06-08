@@ -1,0 +1,4 @@
+#+title: Notes
+
+* Neighbors
+Either the neighbors in a graph as explicit, or they can actually be generated. The place where most optimizations happen is usually figuring out neighbors. Not every element is a candidate, so filtering out neighbors to visit is a good optmization to keep in mind.
