@@ -1,0 +1,47 @@
+#+title: Graph Patterns
+
+* Table of Contents :toc:
+- [[#graph-patterns-and-questions-0][Graph Patterns and Questions]]
+  - [[#1-dfs-traversal-pattern-reachability--components-05][1. DFS Traversal Pattern (Reachability & Components)]]
+  - [[#2-bfs-expansion-pattern-shortest-reachability-05][2. BFS Expansion Pattern (Shortest Reachability)]]
+  - [[#3-graph-state-modeling-pattern-expanded-traversal-state-04][3. Graph State Modeling Pattern (Expanded Traversal State)]]
+  - [[#4-dependency--cycle-pattern-graph-structure-validation-04][4. Dependency & Cycle Pattern (Graph Structure Validation)]]
+  - [[#5-connectivity-compression-pattern-union-find-03][5. Connectivity Compression Pattern (Union Find)]]
+
+* Graph Patterns and Questions [0%]
+** TODO 1. DFS Traversal Pattern (Reachability & Components) [0/5]
+*Key Logic:* Explore all reachable states depth-first while preventing revisits.
+
+- [ ] [[https://leetcode.com/problems/find-if-path-exists-in-graph/description/][1971. Find if Path Exists in Graph]]
+- [ ] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]]
+- [ ] [[https://leetcode.com/problems/number-of-islands/description/][200. Number of Islands]]
+- [ ] [[https://leetcode.com/problems/max-area-of-island/description/][695. Max Area of Island]]
+- [ ] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]]
+** TODO 2. BFS Expansion Pattern (Shortest Reachability) [0/5]
+*Key Logic:* Expand outward level-by-level to discover minimum-step reachability.
+
+- [ ] [[https://leetcode.com/problems/binary-tree-level-order-traversal/description/][102. Binary Tree Level Order Traversal]]
+- [ ] [[https://leetcode.com/problems/rotting-oranges/description/][994. Rotting Oranges]]
+- [ ] [[https://leetcode.com/problems/walls-and-gates/description/][286. Walls and Gates]]
+- [ ] [[https://leetcode.com/problems/shortest-path-in-binary-matrix/description/][1091. Shortest Path in Binary Matrix]]
+- [ ] [[https://leetcode.com/problems/word-ladder/description/][127. Word Ladder]]
+** TODO 3. Graph State Modeling Pattern (Expanded Traversal State) [0/4]
+*Key Logic:* Model traversal state using additional dimensions beyond position alone.
+
+- [ ] [[https://leetcode.com/problems/open-the-lock/description/][752. Open the Lock]]
+- [ ] [[https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/][1293. Shortest Path in a Grid with Obstacles Elimination]]
+- [ ] [[https://leetcode.com/problems/path-with-minimum-effort/description/][1631. Path With Minimum Effort]]
+- [ ] [[https://leetcode.com/problems/swim-in-rising-water/description/][778. Swim in Rising Water]]
+** TODO 4. Dependency & Cycle Pattern (Graph Structure Validation) [0/4]
+*Key Logic:* Validate traversal safety and dependency ordering using graph structure constraints.
+
+- [ ] [[https://leetcode.com/problems/course-schedule/description/][207. Course Schedule]]
+- [ ] [[https://leetcode.com/problems/course-schedule-ii/description/][210. Course Schedule II]]
+- [ ] [[https://leetcode.com/problems/graph-valid-tree/description/][261. Graph Valid Tree]]
+- [ ] [[https://leetcode.com/problems/redundant-connection/description/][684. Redundant Connection]]
+** TODO 5. Connectivity Compression Pattern (Union Find) [0/3]
+*Key Logic:* Maintain dynamic graph connectivity through component merging and parent compression.
+
+- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]]
+- [ ] [[https://leetcode.com/problems/redundant-connection/description/][684. Redundant Connection]]
+- [ ] [[https://leetcode.com/problems/accounts-merge/description/][721. Accounts Merge]]

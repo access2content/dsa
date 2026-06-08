@@ -1,0 +1,108 @@
+#+title: Graph Mechanics
+
+* Table of Contents :toc:
+- [[#graphs--state-traversal-mechanics-0][Graphs & State Traversal Mechanics]]
+  - [[#phase-1--graph-representation--dfs-reachability-04][Phase 1 — Graph Representation & DFS Reachability]]
+  - [[#phase-2--bfs-layer-expansion--shortest-reachability-04][Phase 2 — BFS Layer Expansion & Shortest Reachability]]
+  - [[#phase-3--matrix-traversal--expanded-graph-states-05][Phase 3 — Matrix Traversal & Expanded Graph States]]
+  - [[#phase-4--weighted-expansion--dependency-ordering-04][Phase 4 — Weighted Expansion & Dependency Ordering]]
+  - [[#phase-5--connectivity-compression--graph-structure-validation-04][Phase 5 — Connectivity Compression & Graph Structure Validation]]
+
+* Graphs & State Traversal Mechanics [0%]
+** TODO Phase 1 — Graph Representation & DFS Reachability [0/4]
+Learn that graphs represent reachable connected states.
+DFS recursively explores reachable state spaces depth-first.
+
+Focus on:
+- Adjacency lists
+- Reachability traversal
+- Recursive DFS
+- Visited-state tracking
+
+Core mechanics:
+- Graph representation
+- Recursive exploration
+- Connected components
+- Traversal safety
+
+- [ ] [[https://leetcode.com/problems/find-if-path-exists-in-graph/description/][1971. Find if Path Exists in Graph]] (Basic reachability traversal)
+- [ ] [[https://leetcode.com/problems/keys-and-rooms/description/][841. Keys and Rooms]] (Canonical DFS traversal)
+- [ ] [[https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/][323. Number of Connected Components in an Undirected Graph]] (Connected region discovery)
+- [ ] [[https://leetcode.com/problems/clone-graph/description/][133. Clone Graph]] (Traversal with reconstruction)
+** TODO Phase 2 — BFS Layer Expansion & Shortest Reachability [0/4]
+Learn that BFS expands outward layer-by-layer from reachable states.
+
+Focus on:
+- Queue-based traversal
+- Layer expansion
+- Multi-source BFS
+- Unweighted shortest paths
+
+Core mechanics:
+- Frontier expansion
+- BFS layering
+- Distance propagation
+- Multi-source traversal
+
+- [ ] [[https://leetcode.com/problems/binary-tree-level-order-traversal/description/][102. Binary Tree Level Order Traversal]] (Canonical BFS layering)
+- [ ] [[https://leetcode.com/problems/rotting-oranges/description/][994. Rotting Oranges]] (Multi-source BFS)
+- [ ] [[https://leetcode.com/problems/word-ladder/description/][127. Word Ladder]] (Shortest path in unweighted graphs)
+- [ ] [[https://leetcode.com/problems/walls-and-gates/description/][286. Walls and Gates]] (Distance propagation on grids)
+** TODO Phase 3 — Matrix Traversal & Expanded Graph States [0/5]
+Learn that matrices are implicit graphs and traversal state may contain additional dimensions.
+
+Focus on:
+- Grid traversal
+- Direction vectors
+- State expansion
+- Coordinate-based traversal
+
+Core mechanics:
+- Implicit adjacency
+- Boundary validation
+- Expanded traversal state
+- State-aware visited tracking
+
+- [ ] [[https://leetcode.com/problems/flood-fill/description/][733. Flood Fill]] (Implicit DFS graph traversal)
+- [ ] [[https://leetcode.com/problems/number-of-islands/description/][200. Number of Islands]] (Connected components on grids)
+- [ ] [[https://leetcode.com/problems/max-area-of-island/description/][695. Max Area of Island]] (DFS region accumulation)
+- [ ] [[https://leetcode.com/problems/shortest-path-in-binary-matrix/description/][1091. Shortest Path in Binary Matrix]] (Grid BFS shortest path)
+- [ ] [[https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/][1293. Shortest Path in a Grid with Obstacles Elimination]] (Expanded graph state traversal)
+** TODO Phase 4 — Weighted Expansion & Dependency Ordering [0/4]
+Learn that traversal can prioritize optimal expansion cost or dependency-safe ordering.
+
+Focus on:
+- Priority-based traversal
+- Weighted shortest paths
+- DAG ordering
+- Dependency resolution
+
+Core mechanics:
+- Priority queue expansion
+- Dijkstra traversal
+- Topological sorting
+- Indegree processing
+
+- [ ] [[https://leetcode.com/problems/network-delay-time/description/][743. Network Delay Time]] (Canonical Dijkstra traversal)
+- [ ] [[https://leetcode.com/problems/path-with-minimum-effort/description/][1631. Path With Minimum Effort]] (Weighted traversal on grids)
+- [ ] [[https://leetcode.com/problems/course-schedule/description/][207. Course Schedule]] (Cycle detection + DAG validation)
+- [ ] [[https://leetcode.com/problems/course-schedule-ii/description/][210. Course Schedule II]] (Topological ordering)
+** TODO Phase 5 — Connectivity Compression & Graph Structure Validation [0/4]
+Learn that graph connectivity can be optimized without traversal using structural compression.
+
+Focus on:
+- Dynamic connectivity
+- Union Find
+- Structural graph validation
+- Connectivity optimization
+
+Core mechanics:
+- Disjoint set representation
+- Path compression
+- Connectivity merging
+- Structural cycle validation
+
+- [ ] [[https://leetcode.com/problems/graph-valid-tree/description/][261. Graph Valid Tree]] (Tree validation mechanics)
+- [ ] [[https://leetcode.com/problems/redundant-connection/description/][684. Redundant Connection]] (Cycle detection via Union Find)
+- [ ] [[https://leetcode.com/problems/number-of-provinces/description/][547. Number of Provinces]] (Connectivity compression)
+- [ ] [[https://leetcode.com/problems/accounts-merge/description/][721. Accounts Merge]] (Dynamic component merging)

@@ -38,11 +38,6 @@
   - [[#tree-bfs-03][Tree BFS]]
   - [[#trie-03][Trie]]
 - [[#phase-7---graphs][Phase 7 - Graphs]]
-  - [[#graph-dfs-03][Graph DFS]]
-  - [[#graph-bfs-02][Graph BFS]]
-  - [[#matrix-problems-03][Matrix Problems]]
-  - [[#topological-sort-03][Topological Sort]]
-  - [[#union-find-03][Union Find]]
 - [[#phase-8---advanced-problem-solving][Phase 8 - Advanced Problem Solving]]
 - [[#phase-9---advanced-algorithms][Phase 9 - Advanced Algorithms]]
   - [[#bit-manipulation-04][Bit Manipulation]]
@@ -228,25 +223,21 @@ CLOSED: [2026-05-15 Fri 20:39]
 - [ ] prefix search
 - [ ] word search
 * Phase 7 - Graphs
-** Graph DFS [0/3]
-- [ ] Visited tracking
-- [ ] Connected components
-- [ ] Cycle detection intuition
-** Graph BFS [0/2]
-- [ ] Shortest path in unweighted graphs
-- [ ] Multi-source BFS
-** Matrix Problems [0/3]
-- [ ] Grid traversal
-- [ ] Direction vectors
-- [ ] BFS/DFS on grids
-** Topological Sort [0/3]
-- [ ] DAG thinking
-- [ ] Dependency ordering
-- [ ] Indegree processing
-** Union Find [0/3]
-- [ ] Connected components
-- [ ] Dynamic connectivity
-- [ ] Cycle detection
+[[[file:phase7/graphs/README.org][Mechanics]]][[[file:phase7/graphs/PATTERNS.org][Patterns]]]
+- Visited tracking
+- Connected components
+- Cycle detection intuition
+- Shortest path in unweighted graphs
+- Multi-source BFS
+- Grid traversal
+- Direction vectors
+- BFS/DFS on grids
+- DAG thinking
+- Dependency ordering
+- Indegree processing
+- Connected components
+- Dynamic connectivity
+- Cycle detection
 * Phase 8 - Advanced Problem Solving
 - [ ] State definition
 - [ ] Transition relation
