@@ -1,0 +1,40 @@
+#+title: Hashmap Mechanics
+
+* Table of Contents :toc:
+- [[#mechanics-and-questions-0][Mechanics and Questions]]
+  - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
+  - [[#phase-2--complement-matching-33][Phase 2 — Complement Matching]]
+  - [[#phase-3--grouping--canonicalization-11][Phase 3 — Grouping & Canonicalization]]
+  - [[#phase-4--state-tracking-11][Phase 4 — State Tracking]]
+  - [[#phase-5--structural-membership-optimization-11][Phase 5 — Structural Membership Optimization]]
+  - [[#phase-6--boundary-of-the-technique-11][Phase 6 — Boundary of the Technique]]
+
+* Mechanics and Questions [0%]
+** TODO Phase 1 — Membership & Frequency [3/3]
+*Key Logic:* Learn existence checks, deduplication, and counting.
+
+- [ ] [[https://leetcode.com/problems/contains-duplicate/description/][217. Contains Duplicate]] (Deduplication)
+- [ ] [[https://leetcode.com/problems/valid-anagram/description/][242. Valid Anagram]] (Frequency comparison)
+- [ ] [[https://leetcode.com/problems/top-k-frequent-elements/description/][347. Top K Frequent Elements]] (Frequency aggregation)
+** TODO Phase 2 — Complement Matching [3/3]
+*Key Logic:* Learn that hashmaps can answer future queries using previously observed values.
+
+- [ ] [[https://leetcode.com/problems/two-sum/description/][1. Two Sum]] (Complement lookup)
+- [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Two Sum on prefix sums)
+- [ ] [[https://leetcode.com/problems/4sum-ii/description/][454. 4Sum II]] (Generalized complement matching)
+** TODO Phase 3 — Grouping & Canonicalization [1/1]
+*Key Logic:* Different inputs can be transformed into the same key and grouped together.
+
+- [ ] [[https://leetcode.com/problems/group-anagrams/description/][49. Group Anagrams]] (Canonical-key grouping)
+** TODO Phase 4 — State Tracking [1/1]
+*Key Logic:* Store the first occurrence of a state because earlier positions are often more valuable.
+
+- [ ] [[https://leetcode.com/problems/contiguous-array/description/][525. Contiguous Array]] (First-occurrence state tracking)
+** TODO Phase 5 — Structural Membership Optimization [1/1]
+*Key Logic:* Use hashing to eliminate repeated searching.
+
+- [ ] [[https://leetcode.com/problems/longest-consecutive-sequence/description/][128. Longest Consecutive Sequence]] (Set-based optimization)
+** TODO Phase 6 — Boundary of the Technique [1/1]
+*Key Logic:* Learn when hashing alone is insufficient and must cooperate with another data structure.
+
+- [ ] [[https://leetcode.com/problems/lru-cache/description/][146. LRU Cache]] (HashMap → Linked List node indirection)

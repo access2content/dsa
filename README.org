@@ -113,6 +113,7 @@ CLOSED: [2026-05-15 Fri 20:39]
 - Running totals
 - Hashmap + prefix sum combinations
 ** TODO 4. Hashmaps
+[[[file:phase1/4.hashmaps/README.org][Mechanics]]]
 - Frequency counting
 - Lookup optimization
 - Deduplication
