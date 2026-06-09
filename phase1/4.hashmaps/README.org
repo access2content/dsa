@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#mechanics-and-questions-0][Mechanics and Questions]]
-  - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
+  - [[#phase-1--membership--frequency-13][Phase 1 — Membership & Frequency]]
   - [[#phase-2--complement-matching-33][Phase 2 — Complement Matching]]
   - [[#phase-3--grouping--canonicalization-11][Phase 3 — Grouping & Canonicalization]]
   - [[#phase-4--state-tracking-11][Phase 4 — State Tracking]]
@@ -10,10 +10,10 @@
   - [[#phase-6--boundary-of-the-technique-11][Phase 6 — Boundary of the Technique]]
 
 * Mechanics and Questions [0%]
-** TODO Phase 1 — Membership & Frequency [3/3]
+** TODO Phase 1 — Membership & Frequency [1/3]
 *Key Logic:* Learn existence checks, deduplication, and counting.
 
-- [ ] [[https://leetcode.com/problems/contains-duplicate/description/][217. Contains Duplicate]] (Deduplication)
+- [X] [[https://leetcode.com/problems/contains-duplicate/description/][217. Contains Duplicate]] [[[file:217-contains-duplicate.ts][TS]]] (Deduplication)
 - [ ] [[https://leetcode.com/problems/valid-anagram/description/][242. Valid Anagram]] (Frequency comparison)
 - [ ] [[https://leetcode.com/problems/top-k-frequent-elements/description/][347. Top K Frequent Elements]] (Frequency aggregation)
 ** TODO Phase 2 — Complement Matching [3/3]
