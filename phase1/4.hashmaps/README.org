@@ -3,7 +3,7 @@
 * Table of Contents :toc:
 - [[#mechanics-and-questions-16][Mechanics and Questions]]
   - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
-  - [[#phase-2--complement-matching-13][Phase 2 — Complement Matching]]
+  - [[#phase-2--complement-matching-23][Phase 2 — Complement Matching]]
   - [[#phase-3--grouping--canonicalization-01][Phase 3 — Grouping & Canonicalization]]
   - [[#phase-4--state-tracking-01][Phase 4 — State Tracking]]
   - [[#phase-5--structural-membership-optimization-01][Phase 5 — Structural Membership Optimization]]
@@ -17,12 +17,12 @@ CLOSED: [2026-06-09 Tue 22:06]
 - [X] [[https://leetcode.com/problems/contains-duplicate/description/][217. Contains Duplicate]] [[[file:217-contains-duplicate.ts][TS]]] (Deduplication)
 - [X] [[https://leetcode.com/problems/valid-anagram/description/][242. Valid Anagram]] [[[file:242-valid-anagram.ts][TS]]] (Frequency comparison)
 - [X] [[https://leetcode.com/problems/top-k-frequent-elements/description/][347. Top K Frequent Elements]] [[[file:347-top-k-frequent-elements.ts][TS]]] (Frequency aggregation)
-** TODO Phase 2 — Complement Matching [1/3]
+** TODO Phase 2 — Complement Matching [2/3]
 *Key Logic:* Learn that hashmaps can answer future queries using previously observed values.
 
 - [X] [[https://leetcode.com/problems/two-sum/description/][1. Two Sum]] [[[file:1-two-sum.ts][TS]]] (Complement lookup)
 - [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Two Sum on prefix sums)
-- [ ] [[https://leetcode.com/problems/4sum-ii/description/][454. 4Sum II]] (Generalized complement matching)
+- [X] [[https://leetcode.com/problems/4sum-ii/description/][454. 4Sum II]] [[[file:454-4sum-ii.ts][TS]]] (Generalized complement matching)
 ** TODO Phase 3 — Grouping & Canonicalization [0/1]
 *Key Logic:* Different inputs can be transformed into the same key and grouped together.
 
