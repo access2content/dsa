@@ -1,15 +1,15 @@
 #+title: Hashmap Mechanics
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-33][Mechanics and Questions]]
+- [[#mechanics-and-questions-50][Mechanics and Questions]]
   - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
   - [[#phase-2--complement-matching-23][Phase 2 — Complement Matching]]
   - [[#phase-3--grouping--canonicalization-11][Phase 3 — Grouping & Canonicalization]]
-  - [[#phase-4--state-tracking-01][Phase 4 — State Tracking]]
+  - [[#phase-4--state-tracking-11][Phase 4 — State Tracking]]
   - [[#phase-5--structural-membership-optimization-01][Phase 5 — Structural Membership Optimization]]
   - [[#phase-6--boundary-of-the-technique-01][Phase 6 — Boundary of the Technique]]
 
-* Mechanics and Questions [33%]
+* Mechanics and Questions [50%]
 ** DONE Phase 1 — Membership & Frequency [3/3]
 CLOSED: [2026-06-09 Tue 22:06]
 *Key Logic:* Learn existence checks, deduplication, and counting.
@@ -28,10 +28,11 @@ CLOSED: [2026-06-10 Wed 13:49]
 *Key Logic:* Different inputs can be transformed into the same key and grouped together.
 
 - [X] [[https://leetcode.com/problems/group-anagrams/description/][49. Group Anagrams]] [[[file:49-group-anagrams.ts][TS]]] (Canonical-key grouping)
-** TODO Phase 4 — State Tracking [0/1]
+** DONE Phase 4 — State Tracking [1/1]
+CLOSED: [2026-06-10 Wed 15:27]
 *Key Logic:* Store the first occurrence of a state because earlier positions are often more valuable.
 
-- [ ] [[https://leetcode.com/problems/contiguous-array/description/][525. Contiguous Array]] (First-occurrence state tracking)
+- [X] [[https://leetcode.com/problems/contiguous-array/description/][525. Contiguous Array]] [[[file:525-contiguous-array.ts][TS]]] (First-occurrence state tracking)
 ** TODO Phase 5 — Structural Membership Optimization [0/1]
 *Key Logic:* Use hashing to eliminate repeated searching.
 
