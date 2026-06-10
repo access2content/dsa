@@ -1,15 +1,15 @@
 #+title: Hashmap Mechanics
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-16][Mechanics and Questions]]
+- [[#mechanics-and-questions-33][Mechanics and Questions]]
   - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
   - [[#phase-2--complement-matching-23][Phase 2 — Complement Matching]]
-  - [[#phase-3--grouping--canonicalization-01][Phase 3 — Grouping & Canonicalization]]
+  - [[#phase-3--grouping--canonicalization-11][Phase 3 — Grouping & Canonicalization]]
   - [[#phase-4--state-tracking-01][Phase 4 — State Tracking]]
   - [[#phase-5--structural-membership-optimization-01][Phase 5 — Structural Membership Optimization]]
   - [[#phase-6--boundary-of-the-technique-01][Phase 6 — Boundary of the Technique]]
 
-* Mechanics and Questions [16%]
+* Mechanics and Questions [33%]
 ** DONE Phase 1 — Membership & Frequency [3/3]
 CLOSED: [2026-06-09 Tue 22:06]
 *Key Logic:* Learn existence checks, deduplication, and counting.
@@ -23,10 +23,11 @@ CLOSED: [2026-06-09 Tue 22:06]
 - [X] [[https://leetcode.com/problems/two-sum/description/][1. Two Sum]] [[[file:1-two-sum.ts][TS]]] (Complement lookup)
 - [ ] [[https://leetcode.com/problems/subarray-sum-equals-k/description/][560. Subarray Sum Equals K]] (Two Sum on prefix sums)
 - [X] [[https://leetcode.com/problems/4sum-ii/description/][454. 4Sum II]] [[[file:454-4sum-ii.ts][TS]]] (Generalized complement matching)
-** TODO Phase 3 — Grouping & Canonicalization [0/1]
+** DONE Phase 3 — Grouping & Canonicalization [1/1]
+CLOSED: [2026-06-10 Wed 13:49]
 *Key Logic:* Different inputs can be transformed into the same key and grouped together.
 
-- [ ] [[https://leetcode.com/problems/group-anagrams/description/][49. Group Anagrams]] (Canonical-key grouping)
+- [X] [[https://leetcode.com/problems/group-anagrams/description/][49. Group Anagrams]] [[[file:49-group-anagrams.ts][TS]]] (Canonical-key grouping)
 ** TODO Phase 4 — State Tracking [0/1]
 *Key Logic:* Store the first occurrence of a state because earlier positions are often more valuable.
 
