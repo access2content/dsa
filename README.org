@@ -137,6 +137,7 @@ CLOSED: [2026-05-15 Fri 20:39]
 - Cycle detection
 * Phase 3 - Search and Optimization
 ** 1. Binary Search
+[[[file:phase3/1.binary-search/README.org][Mechanics]]]
 - Binary search on arrays
 - First/last occurrence
 - Search space reduction

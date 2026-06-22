@@ -1,0 +1,53 @@
+#+title: Binary Search Mechanics
+
+* Table of Contents :toc:
+- [[#mechanics-and-questions-0][Mechanics and Questions]]
+  - [[#phase-1--membership-search-02][Phase 1 — Membership Search]]
+  - [[#phase-2--boundary-discovery-02][Phase 2 — Boundary Discovery]]
+  - [[#phase-3--structural-search-02][Phase 3 — Structural Search]]
+  - [[#phase-4--binary-search-on-answer-04][Phase 4 — Binary Search on Answer]]
+  - [[#phase-5--binary-search-on-value-space-01][Phase 5 — Binary Search on Value Space]]
+  - [[#phase-6--binary-search-on-partitions-01][Phase 6 — Binary Search on Partitions]]
+  - [[#phase-7--boundary-of-the-technique-01][Phase 7 — Boundary of the Technique]]
+- [[#binary-search-templates][Binary Search Templates]]
+
+* Mechanics and Questions [0%]
+** TODO Phase 1 — Membership Search [0/2]
+*Key Logic:* Find a value or insertion point in a sorted space.
+
+- [ ] [[https://leetcode.com/problems/binary-search/description/][704. Binary Search]] (Classic binary search)
+- [ ] [[https://leetcode.com/problems/search-insert-position/description/][35. Search Insert Position]] (Insertion point)
+** TODO Phase 2 — Boundary Discovery [0/2]
+*Key Logic:* Search for the first or last position satisfying a condition.
+
+- [ ] [[https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/][34. Find First and Last Position of Element in Sorted Array]] (Lower and upper bounds)
+- [ ] [[https://leetcode.com/problems/first-bad-version/description/][278. First Bad Version]] (First true in a monotonic predicate)
+** TODO Phase 3 — Structural Search [0/2]
+*Key Logic:* Exploit hidden ordering even when the target is not directly searchable.
+
+- [ ] [[https://leetcode.com/problems/search-in-rotated-sorted-array/description/][33. Search in Rotated Sorted Array]] (Search in partially ordered space)
+- [ ] [[https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/][153. Find Minimum in Rotated Sorted Array]] (Find structural boundary)
+** TODO Phase 4 — Binary Search on Answer [0/4]
+*Key Logic:* Search the answer space rather than the input space.
+
+- [ ] [[https://leetcode.com/problems/koko-eating-bananas/description/][875. Koko Eating Bananas]] (Minimum feasible rate)
+- [ ] [[https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/][1011. Capacity To Ship Packages Within D Days]] (Minimum feasible capacity)
+- [ ] [[https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/][1482. Minimum Number of Days to Make m Bouquets]] (Minimum feasible time)
+- [ ] [[https://leetcode.com/problems/magnetic-force-between-two-balls/description/][1552. Magnetic Force Between Two Balls]] (Maximum feasible distance)
+** TODO Phase 5 — Binary Search on Value Space [0/1]
+*Key Logic:* Search over possible values while counting how many elements satisfy a property.
+
+- [ ] [[https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/][378. Kth Smallest Element in a Sorted Matrix]] (Search over value range)
+** TODO Phase 6 — Binary Search on Partitions [0/1]
+*Key Logic:* Search for the correct partition rather than a value.
+
+- [ ] [[https://leetcode.com/problems/median-of-two-sorted-arrays/description/][4. Median of Two Sorted Arrays]] (Binary search on partition)
+** TODO Phase 7 — Boundary of the Technique [0/1]
+*Key Logic:* Binary search works whenever a monotonic decision function exists.
+
+- [ ] [[https://leetcode.com/problems/find-peak-element/description/][162. Find Peak Element]] (Binary search without explicit sorting)
+* Binary Search Templates
+Learn the three invariants before solving problems after phase 2:
+- Exact Match
+- First True
+- Last True
