@@ -1,15 +1,15 @@
 #+title: Hashmap Mechanics
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-50][Mechanics and Questions]]
+- [[#mechanics-and-questions-66][Mechanics and Questions]]
   - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
   - [[#phase-2--complement-matching-23][Phase 2 — Complement Matching]]
   - [[#phase-3--grouping--canonicalization-11][Phase 3 — Grouping & Canonicalization]]
   - [[#phase-4--state-tracking-11][Phase 4 — State Tracking]]
-  - [[#phase-5--structural-membership-optimization-01][Phase 5 — Structural Membership Optimization]]
+  - [[#phase-5--structural-membership-optimization-11][Phase 5 — Structural Membership Optimization]]
   - [[#phase-6--boundary-of-the-technique-01][Phase 6 — Boundary of the Technique]]
 
-* Mechanics and Questions [50%]
+* Mechanics and Questions [66%]
 ** DONE Phase 1 — Membership & Frequency [3/3]
 CLOSED: [2026-06-09 Tue 22:06]
 *Key Logic:* Learn existence checks, deduplication, and counting.
@@ -33,10 +33,11 @@ CLOSED: [2026-06-10 Wed 15:27]
 *Key Logic:* Store the first occurrence of a state because earlier positions are often more valuable.
 
 - [X] [[https://leetcode.com/problems/contiguous-array/description/][525. Contiguous Array]] [[[file:525-contiguous-array.ts][TS]]] (First-occurrence state tracking)
-** TODO Phase 5 — Structural Membership Optimization [0/1]
+** DONE Phase 5 — Structural Membership Optimization [1/1]
+CLOSED: [2026-06-22 Mon 13:26]
 *Key Logic:* Use hashing to eliminate repeated searching.
 
-- [ ] [[https://leetcode.com/problems/longest-consecutive-sequence/description/][128. Longest Consecutive Sequence]] (Set-based optimization)
+- [X] [[https://leetcode.com/problems/longest-consecutive-sequence/description/][128. Longest Consecutive Sequence]] [[[file:128-longest-consecutive-sequence.ts][TS]]] (Set-based optimization)
 ** TODO Phase 6 — Boundary of the Technique [0/1]
 *Key Logic:* Learn when hashing alone is insufficient and must cooperate with another data structure.
 
