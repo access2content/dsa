@@ -1,15 +1,15 @@
 #+title: Hashmap Mechanics
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-66][Mechanics and Questions]]
+- [[#mechanics-and-questions-83][Mechanics and Questions]]
   - [[#phase-1--membership--frequency-33][Phase 1 — Membership & Frequency]]
   - [[#phase-2--complement-matching-23][Phase 2 — Complement Matching]]
   - [[#phase-3--grouping--canonicalization-11][Phase 3 — Grouping & Canonicalization]]
   - [[#phase-4--state-tracking-11][Phase 4 — State Tracking]]
   - [[#phase-5--structural-membership-optimization-11][Phase 5 — Structural Membership Optimization]]
-  - [[#phase-6--boundary-of-the-technique-01][Phase 6 — Boundary of the Technique]]
+  - [[#phase-6--boundary-of-the-technique-11][Phase 6 — Boundary of the Technique]]
 
-* Mechanics and Questions [66%]
+* Mechanics and Questions [83%]
 ** DONE Phase 1 — Membership & Frequency [3/3]
 CLOSED: [2026-06-09 Tue 22:06]
 *Key Logic:* Learn existence checks, deduplication, and counting.
@@ -38,7 +38,8 @@ CLOSED: [2026-06-22 Mon 13:26]
 *Key Logic:* Use hashing to eliminate repeated searching.
 
 - [X] [[https://leetcode.com/problems/longest-consecutive-sequence/description/][128. Longest Consecutive Sequence]] [[[file:128-longest-consecutive-sequence.ts][TS]]] (Set-based optimization)
-** TODO Phase 6 — Boundary of the Technique [0/1]
+** DONE Phase 6 — Boundary of the Technique [1/1]
+CLOSED: [2026-06-22 Mon 13:45]
 *Key Logic:* Learn when hashing alone is insufficient and must cooperate with another data structure.
 
-- [ ] [[https://leetcode.com/problems/lru-cache/description/][146. LRU Cache]] (HashMap → Linked List node indirection)
+- [X] [[https://leetcode.com/problems/lru-cache/description/][146. LRU Cache]] [[[file:146-lru-cache.ts][TS]]] (HashMap → Linked List node indirection)
