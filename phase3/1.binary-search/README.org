@@ -2,7 +2,7 @@
 
 * Table of Contents :toc:
 - [[#mechanics-and-questions-0][Mechanics and Questions]]
-  - [[#phase-1--membership-search-02][Phase 1 — Membership Search]]
+  - [[#phase-1--membership-search-12][Phase 1 — Membership Search]]
   - [[#phase-2--boundary-discovery-02][Phase 2 — Boundary Discovery]]
   - [[#phase-3--structural-search-02][Phase 3 — Structural Search]]
   - [[#phase-4--binary-search-on-answer-04][Phase 4 — Binary Search on Answer]]
@@ -12,10 +12,10 @@
 - [[#binary-search-templates][Binary Search Templates]]
 
 * Mechanics and Questions [0%]
-** TODO Phase 1 — Membership Search [0/2]
+** TODO Phase 1 — Membership Search [1/2]
 *Key Logic:* Find a value or insertion point in a sorted space.
 
-- [ ] [[https://leetcode.com/problems/binary-search/description/][704. Binary Search]] (Classic binary search)
+- [X] [[https://leetcode.com/problems/binary-search/description/][704. Binary Search]] [[[file:704-binary-search.ts][TS]]] (Classic binary search)
 - [ ] [[https://leetcode.com/problems/search-insert-position/description/][35. Search Insert Position]] (Insertion point)
 ** TODO Phase 2 — Boundary Discovery [0/2]
 *Key Logic:* Search for the first or last position satisfying a condition.
