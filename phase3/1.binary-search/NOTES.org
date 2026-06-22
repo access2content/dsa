@@ -1,0 +1,4 @@
+#+title: Notes
+
+* Searching for boundary
+Binary search can also be used to find the boundary of a condition. The boundaries have upper bound and lower bound. And we can keep running the search till we find the exact location instead of breaking out early.
