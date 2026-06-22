@@ -1,9 +1,9 @@
 #+title: Binary Search Mechanics
 
 * Table of Contents :toc:
-- [[#mechanics-and-questions-14][Mechanics and Questions]]
+- [[#mechanics-and-questions-28][Mechanics and Questions]]
   - [[#phase-1--membership-search-22][Phase 1 — Membership Search]]
-  - [[#phase-2--boundary-discovery-12][Phase 2 — Boundary Discovery]]
+  - [[#phase-2--boundary-discovery-22][Phase 2 — Boundary Discovery]]
   - [[#phase-3--structural-search-02][Phase 3 — Structural Search]]
   - [[#phase-4--binary-search-on-answer-04][Phase 4 — Binary Search on Answer]]
   - [[#phase-5--binary-search-on-value-space-01][Phase 5 — Binary Search on Value Space]]
@@ -11,18 +11,19 @@
   - [[#phase-7--boundary-of-the-technique-01][Phase 7 — Boundary of the Technique]]
 - [[#binary-search-templates][Binary Search Templates]]
 
-* Mechanics and Questions [14%]
+* Mechanics and Questions [28%]
 ** DONE Phase 1 — Membership Search [2/2]
 CLOSED: [2026-06-22 Mon 14:30]
 *Key Logic:* Find a value or insertion point in a sorted space.
 
 - [X] [[https://leetcode.com/problems/binary-search/description/][704. Binary Search]] [[[file:704-binary-search.ts][TS]]] (Classic binary search)
 - [X] [[https://leetcode.com/problems/search-insert-position/description/][35. Search Insert Position]] [[[file:35-search-insert-position.ts][TS]]] (Insertion point)
-** TODO Phase 2 — Boundary Discovery [1/2]
+** DONE Phase 2 — Boundary Discovery [2/2]
+CLOSED: [2026-06-22 Mon 16:19]
 *Key Logic:* Search for the first or last position satisfying a condition.
 
 - [X] [[https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/][34. Find First and Last Position of Element in Sorted Array]] [[[file:34-find-first-and-last-position-of-element-in-sorted-array.ts][TS]]] (Lower and upper bounds)
-- [ ] [[https://leetcode.com/problems/first-bad-version/description/][278. First Bad Version]] (First true in a monotonic predicate)
+- [X] [[https://leetcode.com/problems/first-bad-version/description/][278. First Bad Version]] [[[file:278-first-bad-version.ts][TS]]] (First true in a monotonic predicate)
 ** TODO Phase 3 — Structural Search [0/2]
 *Key Logic:* Exploit hidden ordering even when the target is not directly searchable.
 
